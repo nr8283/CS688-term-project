@@ -935,9 +935,18 @@ MEMORY_FILE = "conversation_memory.json"
 
 # ==== LOAD ENV ====
 load_dotenv()
-if not USE_LOCAL:
-    from openai import OpenAI
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# if not USE_LOCAL:
+#     from openai import OpenAI
+#     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# Try Streamlit secrets first, then environment variable
+api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+
+if not api_key:
+    raise ValueError("OpenAI API key not found. Set it in Streamlit Secrets or as an environment variable.")
+
+client = OpenAI(api_key=api_key)
+
 
 # ==== MEMORY FUNCTIONS ====
 def save_memory(history):
