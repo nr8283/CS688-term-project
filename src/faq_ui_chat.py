@@ -1,5 +1,3 @@
-# src/faq_ui_chat.py
-
 import streamlit as st
 from faq_assistant import search_index, ask_openai, ask_ollama, normalize_query, load_faiss, TOP_K, MEMORY_TURNS
 
@@ -49,12 +47,15 @@ for message in st.session_state.messages:
                 for src in message["sources"]:
                     st.write(f"- {src}")
 
-# ====== Input box ======
-query = st.text_input("Enter your question:")
+# ====== Input box with clear after submit ======
+query = st.text_input("Enter your question:", key="user_input")
 
 if query:
     # Save user message
     st.session_state.messages.append({"role": "user", "content": query})
+
+    # Clear the input so it doesn't retrigger
+    st.session_state.user_input = ""
 
     # Normalize query for better matching
     norm_query = normalize_query(query)
