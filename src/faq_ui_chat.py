@@ -47,24 +47,14 @@ for message in st.session_state.messages:
                 for src in message["sources"]:
                     st.write(f"- {src}")
 
-# ====== Input box with safe clear after submit ======
-if "clear_input" not in st.session_state:
-    st.session_state.clear_input = False
+# ====== Input form to avoid infinite loop ======
+with st.form(key="chat_form", clear_on_submit=True):
+    query = st.text_input("Enter your question:", key="user_input")
+    submitted = st.form_submit_button("Send")
 
-if st.session_state.clear_input:
-    default_value = ""
-    st.session_state.clear_input = False
-else:
-    default_value = ""
-
-query = st.text_input("Enter your question:", value=default_value, key="user_input")
-
-if query:
+if submitted and query:
     # Save user message
     st.session_state.messages.append({"role": "user", "content": query})
-
-    # Set flag to clear input on next run
-    st.session_state.clear_input = True
 
     # Normalize query for better matching
     norm_query = normalize_query(query)
