@@ -11,3 +11,12 @@ openai
 tiktoken
 beautifulsoup4
 requests
+streamlit
+faiss-cpu
+numpy
+sentence-transformers
+openai
+python-dotenv
+requests
+beautifulsoup4
+torch
