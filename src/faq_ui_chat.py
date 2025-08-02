@@ -47,15 +47,24 @@ for message in st.session_state.messages:
                 for src in message["sources"]:
                     st.write(f"- {src}")
 
-# ====== Input box with clear after submit ======
-query = st.text_input("Enter your question:", key="user_input")
+# ====== Input box with safe clear after submit ======
+if "clear_input" not in st.session_state:
+    st.session_state.clear_input = False
+
+if st.session_state.clear_input:
+    default_value = ""
+    st.session_state.clear_input = False
+else:
+    default_value = ""
+
+query = st.text_input("Enter your question:", value=default_value, key="user_input")
 
 if query:
     # Save user message
     st.session_state.messages.append({"role": "user", "content": query})
 
-    # Clear the input so it doesn't retrigger
-    st.session_state.user_input = ""
+    # Set flag to clear input on next run
+    st.session_state.clear_input = True
 
     # Normalize query for better matching
     norm_query = normalize_query(query)
