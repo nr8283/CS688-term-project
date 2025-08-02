@@ -88,4 +88,4 @@ if query:
     })
 
     # Rerun to update UI
-    st.experimental_rerun()
+    st.rerun()
