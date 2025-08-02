@@ -1,0 +1,37 @@
+=== Q&A Session ===
+Time: 2025-08-01 23:05:18
+Question: ms ada
+Answer: I don't have that information in the provided documents.
+Sources:
+- met_degrees-certificates_ms-computer-information-systems-data-analytics.txt (score: 1.2829)
+- met_programs_graduate_computer-information-systems_data-analytics.txt (score: 1.2829)
+- met_degrees-certificates_ms-computer-information-systems-security.txt (score: 1.2865)
+- met_programs_computer-science-it_programs-specializations.txt (score: 1.2901)
+- met_degrees-certificates_ms-applied-business-analytics.txt (score: 1.2962)
+
+Q: ms ada
+A: The Master of Science in Applied Data Analytics (MS ADA) offered through BU MET’s Department of Computer Science is designed to provide students with essential knowledge and skills in data analytics. The program is ideal for mid-career IT professionals or students and emphasizes both data analytics and applied areas such as databases, applied machine learning, and large dataset processing methods. The curriculum includes core courses that cover foundational concepts in applied probability and statistics, data visualization techniques, web analytics, data mining, and machine learning algorithms. The program requires a total of 32 units for completion and offers a pathway for students to transition from graduate certificate programs to the master's degree.
+Sources: [np.str_('met_degrees-certificates_ms-applied-data-analytics.txt'), np.str_('met_programs_graduate_applied-data-analytics.txt'), np.str_('met_degrees-certificates_ms-applied-business-analytics.txt'), np.str_('met_programs_graduate_applied-business-analytics.txt'), np.str_('met_degrees-certificates_ms-computer-science-data-analytics.txt')]
+==================================================
+Q: ada
+A: It seems that your question is incomplete or unclear. Could you please provide more context or clarify what you would like to know?
+Sources: [np.str_('met_programs_arts-administration_career-options.txt'), np.str_('met_programs_computer-science-it_career-outlook.txt'), np.str_('met_programs_computer-science-it_career-outlook.txt'), np.str_('met_programs_computer-science-it_career-outlook.txt'), np.str_('met_programs_computer-science-it_programs-specializations.txt')]
+==================================================
+Q: data science
+A: Data science is a field that combines various techniques from statistics, computer science, and domain knowledge to extract insights and knowledge from structured and unstructured data. It involves processes such as data collection, cleaning, analysis, and visualization, often utilizing machine learning algorithms and data mining techniques to uncover patterns and make predictions. The Master of Science in Applied Data Analytics program at BU MET emphasizes these aspects, providing students with the skills and knowledge necessary to excel in data science roles, particularly in areas like applied machine learning, data visualization, and handling large datasets.
+Sources: [np.str_('met_degrees-certificates_ms-applied-data-analytics.txt'), np.str_('met_programs_graduate_applied-data-analytics.txt'), np.str_('met_degrees-certificates_data-analytics-graduate-certificate.txt'), np.str_('met_programs_graduate_data-analytics-certificate.txt'), np.str_('met_programs_computer-science-it_career-outlook.txt')]
+==================================================
+Q: Applied Data Analytics program requirements
+A: The Master of Science in Applied Data Analytics program requires a total of 32 units. This includes six core courses (24 units) and additional courses as specified. The core course is MET CS 544 Foundations of Analytics and Data Visualization, which provides the mathematical and practical background required in the field of data analytics. 
+
+Students must also complete a total of four courses (16 units) from the following:
+
+1. MET AD 571 Business Analytics Foundations (prerequisite: AD100 Pre-Analytics Laboratory)
+2. Three additional courses from the following options:
+   - MET AD 616 Enterprise Risk Analytics (prerequisite: MET AD 571)
+   - MET AD 654 Marketing Analytics (prerequisite: MET AD 571)
+   - MET AD 688 and MET AD 699 (prerequisites may apply)
+
+Students currently enrolled in a graduate certificate program can transition into the master's degree without needing to submit a new application, but they should contact their academic advisor to declare their interest in this pathway.
+Sources: [np.str_('met_degrees-certificates_ms-applied-data-analytics.txt'), np.str_('met_programs_graduate_applied-data-analytics.txt'), np.str_('met_programs_analytics-data-business.txt'), np.str_('met_degrees-certificates_applied-business-analytics-graduate-certificate.txt'), np.str_('met_programs_graduate_applied-business-analytics-certificate.txt')]
+==================================================

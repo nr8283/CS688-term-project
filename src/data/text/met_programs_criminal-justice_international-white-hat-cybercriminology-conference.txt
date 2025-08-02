@@ -1,0 +1,1021 @@
+International White Hat Cybercriminology Conference | BU MET
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to Main Content
+
+
+
+
+
+
+Boston University
+
+
+Metropolitan College
+
+
+
+
+
+
+Degrees & Certificates
+
+
+Admissions
+
+
+Faculty & Research
+
+
+Apply Now
+
+
+Full Menu
+Close Menu
+ 
+
+
+Boston University
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+Search for:
+
+
+
+
+ 
+
+
+Degrees & Certificates
+
+
+
+
+
+
+Actuarial Science
+
+
+
+
+
+
+Analytics, Data & Business
+
+
+
+
+
+
+Arts Administration
+
+
+
+
+
+
+Bachelor’s Degree Completion
+
+
+
+
+
+
+Biomedical & Healthcare
+
+
+
+
+
+
+Business & Management
+
+
+
+
+
+
+City Planning & Urban Affairs
+
+
+
+
+
+
+Computer Information Systems
+
+
+
+
+
+
+Computer Science & IT
+
+
+
+
+
+
+Criminal Justice
+
+
+
+
+
+
+Cybersecurity
+
+
+
+
+
+
+Finance
+
+
+
+
+
+
+Gastronomy & Food Studies
+
+
+
+
+
+
+Linguistics
+
+
+
+
+
+
+Marketing & Communications
+
+
+
+
+
+
+Project Management
+
+
+
+
+
+
+Risk Management
+
+
+
+
+
+
+Software Development
+
+
+
+
+
+
+Supply Chain Management
+
+
+
+
+
+
+
+
+
+
+Admissions
+
+
+
+
+
+
+Apply Now: Graduate
+
+
+
+
+
+
+Apply Now: Undergraduate
+
+
+
+
+
+
+International Students
+
+
+
+
+
+
+Tuition & Fees
+
+
+
+
+
+
+Financial Aid
+
+
+
+
+
+
+Admitted Students
+
+
+
+
+
+
+Academic Calendars
+
+
+
+
+
+
+Orientation
+
+
+
+
+
+
+Course Registration
+
+
+
+
+
+
+
+
+
+
+About
+
+
+
+
+
+
+Dean’s Welcome
+
+
+
+
+
+
+2030 Strategic Plan
+
+
+
+
+
+
+Dean’s Advisory Board
+
+
+
+
+
+
+Diversity & Inclusion
+
+
+
+
+
+
+Directory
+
+
+
+
+
+
+
+
+
+
+Faculty & Research
+
+
+
+
+
+
+Faculty
+
+
+
+
+
+
+Podcast: MET Makes Conversation
+
+
+
+
+
+
+
+
+
+
+Courses
+
+
+Careers
+
+
+News
+
+
+Events
+
+
+Contact Us
+
+
+
+
+Resources for:
+
+
+Current Students
+
+
+Faculty & Staff
+
+
+Alumni & Friends
+
+
+
+
+
+
+
+
+Apply Now:  Graduate
+
+
+Apply Now:  Undergraduate
+
+
+Request Information
+
+
+Connect:  Admissions
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+1,400 ‘White Hat’ Hackers Team Up in International Cybercriminology Conference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Programs
+Criminal Justice
+
+
+Before it became a coordinated worldwide effort to help the criminal justice world develop the digital forensics know-how needed to prevent, investigate, and thwart cybercrime, the International White Hat Conference began with a question—one 
+Dr. Kyung-shick Choi
+, director of 
+Cybercrime & Cybersecurity programs
+ at Boston University Metropolitan College (MET), had been asking himself for years.
+
+
+“Why, as the good guys, are we continuously reluctant to share our knowledge?”
+
+
+With global losses from cybercrime inching near $1 trillion in 2020, according to a 
+McAfee report
+, the public need for successful partnerships between private enterprise and law enforcement has never been greater. Whether due to smartphones or insecure IP protocols, rises in wireless use, or cloud data storage, the world’s embrace of the cashless economy and growing reliance on web-based commerce has brought with it increased weaknesses and rises in the risk of being hacked—for both organizations and individuals.
+
+
+So why, Dr. Choi wondered, was there so little precedent for collaboration between agencies at federal, local, and international levels to target cybercrime? “Yet the ‘bad guys,’” or so-called 
+black
+ hats, he noted, “are constantly communicating and sharing their wealth of knowledge.”
+
+
+In 2019, the renowned cybercriminologist answered matters for himself when he organized the first International White Hat Conference in Bogota, Colombia, where the Colombian National Police and partners from the private sector came together to share government, private, and academic perspectives as a global community. By taking on the challenge of writing the rules to cybercrime investigation and training, and promoting it worldwide, the event served to bring disruptive change to cybercrime and explore what global measures could bring about effective criminal justice policies and preventive measures.
+
+
+Presenters shared practical knowledge regarding cybercrime profiling, early cybersecurity education, ethics, hacking, internet fraud, darknet investigation, cyber-incident response, and the need for AI tracking devices to monitor suspicious online activity. It was a start.
+
+
+
+
+CRIMINAL JUSTICE CAREERS: Find out what professional opportunities await MET CJ graduates
+
+
+
+
+But the need for stronger and more coordinated defenses has continued to grow. And despite heightened concern for the role technology plays in online victimization, many law enforcement agencies remain understaffed and under-resourced against the developing threats. And so it was that the third International White Hat Conference was held June 1–2, 2021, this time at Boston University Metropolitan College, sponsored by a grant from the US Department of Justice’s Bureau of Justice Assistance and in collaboration with Utica College.
+
+
+“Unfortunately, there is a persistent gap between the limited supply and high demand for cybersecurity and cybercrime expertise,” Metropolitan College Dean 
+Tanya Zlateva
+ told the audience. As director of security programs at MET, it’s a subject Dr. Zlateva knows well—she was instrumental in developing the information security curriculum that led to BU’s designation as a Center for Academic Excellence in Cyber Defense and Research by the National Security Agency and Department of Homeland Security.
+
+
+With instances of cybercrime ranging from ransomware to cyberterrorism, security breaches, identity theft, online drug-trafficking, cyberbullying, and others continually on the rise, the conference’s theme was, “The Future of Cybercrime and Its Challenges: Innovative Solutions Against Cybercrime.” Experts from roles across government and private industry shared their key knowledge to combatting the evolving issues, delving into urgent matters like the relationship between private enterprise and government oversight and penalty as it relates to the field.
+
+
+In 2020, work-from-home became a common experience—but there were hidden drawbacks to taking so much business off-site. “The one crime category that has skyrocketed across the world is cybercrime,” Dean Zlateva explained. To meet the field’s global need for training in both cybercriminal behavior and information technologies demands dedication and commitment. “Staying ahead in today’s fast-changing economy requires not only persistence and hard work, but also continuous learning,” she said.
+
+
+
+
+Learn more about Cybersecurity at BU MET
+
+
+
+
+Hosted by BU Metropolitan College’s Office of the Dean and 
+programs in criminal justice
+, along with the 
+Center for Cybercrime Investigation & Cybersecurity
+, the conference saw more than 1,400 virtual attendees from across the globe join the effort to bring an ethos of ethical hacking to combatting the modern scourge of online crime. The conference drew guest speakers and cyber specialists from a total of 15 countries—Argentina, Bolivia, Cambodia, Canada, Colombia, Egypt, France, Hungary, Mexico, Peru, Singapore, South Korea, Spain, Switzerland, and the US—all of whom were dedicated to connecting higher education resources with the real-world cybersecurity, computer forensics, and digital evidence needs of federal, local, and state law enforcement agencies like INTERPOL, Europol, the US Federal Bureau of Investigation, and the Department Homeland Security; all of whom were in attendance.
+
+
+The nearly $1 million federal grant awarded by the Bureau of Justice Assistance to BU MET comes in support of the Student Computer Forensics and Digital Evidence Educational Opportunities Program—an endeavor to enhance current capacities of law enforcement agencies in the areas of computer forensics and digital evidence, with an ultimate aim of reduced overall instances of cybercrime. In partnership with Utica College, the event was the realization of years of research gathering input from federal as well as local and state law enforcement agencies to improve academic approaches to better serve agency needs. As these improvements make their way to agencies and departments, the field will see positive growth in cybercrime investigations and successful prosecutions.
+
+
+The goal of this year’s conference was to identify the important drivers and disruptors of change in cybercrime in order to address the importance of technology-related issues. As each day brings new complications to people’s interactions with novel social systems, cyber-physical infrastructure, and evolving virtual technologies, the probability of falling victim to these new types of cybercrime is inexorable—and it’s happening everywhere. “Over the last few years, the development of technology and information has dramatically increased within nations located all around the world,” Choi said. This in turn has had a massive influence on the issue of cybercrime that society must face daily.
+
+
+Dr. Choi addresses the 2021 White Hat Conference audience.
+
+
+“Science fiction writer William Gibson states that the future is already here, it’s just not evenly distributed,” Dr. Choi told the gathered conference. “Perhaps this means that it is important to explore all current and new technology to gain better understanding of the nature of cybercrime issues so that we can eventually scientifically predict those cybercrime phenomena.”
+
+
+According to Dr. Choi, there has never been a greater need for expertise, contribution, and commitment to the field of cybercrime and cybersecurity. “I truly believe education is the most empowering force in the world and education can make a difference,” he said. “Not only should future research and development within the field be reactive, but it should also be proactive. When it comes to investigating, predicting, as well as examining both the origin and effects of cybercrime, [it requires] utilizing intelligence technologies along with worldwide collaboration.”
+
+
+View from the Forefront
+
+
+Alexis Wales, associate director of the Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (CISA), didn’t mince words. “I proudly lead a team of cyber threat hunters,” she told the audience.
+
+
+Alexis Wales, associate director of the Department of Homeland Security, gives a keynote address.
+
+
+Wales heads the CISA, a new bureau born of 2018 Congressional legislation with a physical and cyber infrastructure security directive. “CISA leads our defensive operations in the fight against nation state and criminal activity within the Homeland Security cyber domain,” she said. “We are a very young agency inside of a very young department.”
+
+
+
+
+Learn more about the MS in Criminal Justice, Cybercrime Investigation & Cybersecurity Concentration at BU MET
+
+
+
+
+CISA agents perform threat analysis, detect and hunt for malicious cyber activity, and support mitigation and response efforts. “We are the only federal agency whose sole purpose is to help public and private sector stakeholders strengthen their security and enhance their resilience—to enable others through the provisioning of tools, education, and advice to fight back against the bad guys,” she explained.
+
+
+Taking on challenges like ensuring election security, CISA advances steps to reduce risks for critical infrastructure partners before, during, and after cyber events and incidents. For Wales, the is all about anticipation and prevention. “[We focus] on driving down risk to our nation’s most systemically important critical infrastructure,” she said. “You cannot manage what you cannot measure, and it is sure as heck hard to measure things in cyber.”
+
+
+To meet the measure, Associate Director Wales prizes partnerships with law enforcement authorities outside of the United States. “Information sharing amongst all of us is imperative. To enable a collective defensive posture, we must bring everything we can to the fight. And we must do so in an organized, efficient, and well-practiced manner,” Wales said.
+
+
+The CISA associate director knows that the cybercrime field needs more lawful guardians, as the threats have grown disproportionately. 
+
+
+“Our adversaries are growing bolder. Their tactics are growing more sophisticated. And their targets are more consequential,” she said. “Attacks on systemically important critical infrastructure can have cascading, destabilizing effects on US national security, economic security, and public health and safety.” 
+
+
+The next great threat she sees is ransomware. “Ransomware knows no boundaries. It’s a target of opportunity and it is indiscriminate,” she said. “We’ve seen ransomware hit cities, hospitals, critical manufacturing, pipelines, and more. As a citizen this fills me with anger and dismay and I’m sure you as well. It is intolerable that bad actors can deny essential services from being delivered and it demands global action.”
+
+
+“How networked we all are by design and how deeply this increases the attack surface and playground of our adversaries, is something that we take very seriously and something that we seek to counter together.
+
+
+Wales has overseen a host of positive developments, starting with security tightening across the federal government. “We are now on track to make the federal government the gold standard for modern cybersecurity. Congress has heard this need and recognizes this need and has provided CISA with key authorities and funding to secure the federal networks that underpin essential government functions,” she said.
+
+
+Best of all, Wales sees encouraging growth in her own agency, with position openings for people from all walks to be of aid in the fight for greater cybersecurity. 
+
+
+“At the CISA.gov website we are constantly posting different career opportunities that we make available, and I will tell you we are in a stage of growth, unprecedented growth,” the CISA associate director offered. “We have grown very large over the last couple of years since we were conceived of by Congress, and we continue to hire at a rapid speed.” 
+
+
+Qualifications, the associate director explained, come in many forms. And tomorrow’s leaders can make themselves known by their service.
+
+
+“We need everything from folks that want to focus on diplomacy, to partnership building, to facilitation of really critical dialogue between key allies and partners. These areas are not always as technical,” Wales offered. “Interns are an amazing source of bright light for CISA. We have had some of our best and brightest come out of the different internship programs that we have at CISA.”
+
+
+Wales, whose career began in risk assessment and biothreats, sees her own history as proof of the diverse pathways that can lead to success in cybersecurity. 
+
+
+“I come from a background in anthropology and history,” she said. “I spent very formative years in college looking at what it means to be secure, feel secure, a lot of the different psychological aspects of what security brings. And I can tell you that the path to cyber is never just the straight and narrow.”
+
+
+Timed Trials
+
+
+Emphasizing collaboration in knowledge, teamwork was the conference’s order of the day. Scholars presented posters aimed at cyber threats, and members of the American Society of Criminology’s cybercrime division led and participated in panel discussions. 
+
+
+The goal was at its heart was the Cybercrime Investigation Competition—a 24-hour “hackathon,” where sixteen international teams of college students, practitioners, and legal authorities were given the chance to showcase their practical cyber-detective skills over 24 hours by tackling a controlled cyber-forensics case study. Designed to reward synchronicity between digital forensics practices and legal considerations, this case involved a suspect who had hacked into a financial institution using ransomware to demand payments. Each team was given a single machine with which to find their mark. Teams would analyze evidence, try and solve the case, and present their findings to judges in a mock trial.
+
+
+“Some of the technical challenges they were confronted with were things like privilege escalation, data hidden in text, audio files, images, hidden archives on different operating systems, website hacking and analysis,” explained Ismael Morales, director of the competition and assistant professor of cybersecurity at Utica College.
+
+
+Working deep into the evening, successful teams probed and treated every piece of information with a healthy amount of suspicion, making sure to utilize all available resources, like tech and case manager support. In the end, nine of the sixteen teams were able to complete the challenge, with teams representing Hungary, Cambodia, and South Korea finishing with top marks, and presenting their findings and processes during the mock trial.
+
+
+“They really came on strong also in the wee hours of the night,” Morales said. “It showed their grit; their motivation. They stayed with it. And it set an example.”
+
+
+As another judge, Robert Price, saw it, “One of the things that I found impressive was the application of the legal authority, the inquisitiveness of the contenders to ask those questions, especially if you’re from a different country and were working under the US Penal Code. If I was on the other end of that, I would find that incredibly difficult.”
+
+
+The conference also featured a student research paper competition, aimed at growing scientific knowledge in the field of cybercrime and cybersecurity. The top three winning papers will be considered for publication in a special 2021 issue of the 
+International Journal of Cybercrime Investigation & Cybersecurity
+. 
+
+
+With competitors joining from organizations like the Boston Police Department’s Crimes Against Children Unit and Internet Crimes Against Children Task Force, the challenge united individuals dedicated to ensuring a digitally secure future the only way possible—together. The winning teams were awarded a scholarship to BU MET’s 
+Graduate Certificate in Cybercrime Investigation & Cybersecurity
+ program.
+
+
+
+
+Learn more about the Cybercrime Investigation & Cybersecurity Graduate Certificate at BU MET
+
+
+
+
+Linking Resources
+
+
+The way Dr. Choi sees it, the best direction to move towards in security is twofold: “Increasing both interdisciplinary and international collaboration is the key in combating the issue of cybercrime.”
+
+
+As Benjamin Wright, a practicing attorney based in Texas focusing on technology law, put it during a presentation on cybercrime’s challenges and available solutions in the private sector, “Security is not a technology. It’s a process.”
+
+
+An instructor at the SANS Institute—which trains cyber defenders on how to protect organizations from data breaches—Wright also helps organizations and professionals understand how to comply with the law, advising domestic and international clients on privacy, electronic commerce, and data security law.
+
+
+Using a recent hack of British Airways as an example, Wright explained that even large, sophisticated companies are vulnerable to data security breaches—with recently compromised companies including Marriott Hotels, Equifax, Capital One, Google, Yahoo, and Uber.
+
+
+“If hackers can break into these very sophisticated companies, they can also break into [smaller] airlines and insurance companies and hospitals,” Wright said. “So, I argue that society is doing a better job [when] it acknowledges that these private companies are fighting a battle that they can’t be expected to win in a perfect sense.”
+
+
+Current law dictates that companies are responsible for security breaches and exposure of privileged customer data, and so are liable and sanctioned by government regulators. But from Wright’s vantage, the key to defense is private-public partnerships. He believes goodwill efforts to prevent or respond to hacks should be rewarded with reasonably reduced fines. 
+
+
+“It is unrealistic for society and for regulations to expect perfection. And if we expect perfection, then we don’t know what we’re doing,” he said. “I argue that if they’re motivated to work really hard then they’re going to hire a professional team and they’re going to train the team and get the resources necessary to put up the good fight against the cybercriminals.”
+
+
+When he’s not lecturing at Boston University’s Metropolitan College, Joe Burgoyne is senior director of cybersecurity at GE Healthcare, where he is responsible for the vulnerability management, policy framework, and programs for medical devices and solutions. He’s worked in multiple roles across government in his 24 years in cybersecurity, where he learned the keys to working successfully with business stakeholders, establishing security programs, and applying practical solutions to complex issues to reduce risk.
+
+
+BU MET Lecturer and Cybersecurity Senior Director Joe Burgoyne presents 
+Cybercrime Challenges and Solutions in the Private Sector
+.
+
+
+Burgoyne reflected on his long career in the field, to gauge what challenges he anticipates. “The attackers back in the ’90s and early 2000s weren’t as sophisticated as they are today, in general,” he said. “The security focus was on the technology used and on the network, because that was where attacks were coming in. The amount of social engineering that we see today just wasn’t happening back in the ’90s and early 2000s.”
+
+
+
+
+Learn more about the MS in Computer Information Systems, Security Concentration at BU MET
+
+
+
+
+Today, Burgoyne says, we see an entirely different playing field—one that includes nation-state attackers, organized crime, and constantly changing methods. “It’s really about financial gain and disruption of national infrastructure. Ransomware and extortion demands are increasing,” he said. “And in that ransomware and extortion, those demands are potentially funding illegal activities and maybe even terror organizations.”
+
+
+“When we talk about the threat landscape, it’s really about knowing what our current threats are. Threats change over time,” Burgoyne noted.
+
+
+The recent crippling Colonial Pipeline ransomware attack pointed out a major flaw in cybersecurity policies, according to Burgoyne. “It is a reactive system, much like an unarmed guard in a parking lot. If the parking lot is attacked, the guards cannot prevent it or cannot even intervene, only react post-incident.”
+
+
+As Wright noted, the most positive signs come from the robustness of modern user training and awareness programs. “It’s so important that the end user understands what an attack looks like, and understands that he or she could be targeted to either run some malicious software or click on a malicious link,” he said. “They can be tricked into doing something that ends up with malicious action against the organization.”
+
+
+“The stakes have never been higher,” Burgoyne concluded.
+
+
+International Efforts
+
+
+With global coordination as the order of the day, representatives from international law agencies laid out the latest in collaborative best practices across the world’s disparate cybersecurity ecosystems. A veteran of the Singapore Police Force since 2006, Pei Ling Lee headed technology policy for the nation’s cybercrime command and led their efforts to bring together a coalition of law officers and private citizens to prevent, research, and train against cybercrime. Today, she’s head of cyber strategy and outreach for INTERPOL’s division on cyber threats, where her team provides support via data and intelligence sharing, analysis, and management as well as policy capabilities to all 194 countries that participate in INTERPOL.
+
+
+ “Our INTERPOL Cybercrime Directorate develops and leads the global law enforcement response to reduce the cybercrime threats that pose the highest risk, and the most harm to communities,” Lee explained. “We provide quality advice.”
+
+
+By 2020 there were 4.57 billion internet users worldwide, and more than 200,000 malicious domains identified by INTERPOL. To combat these threats, the European Union in 2019 voted up Project Gateway, an effort to promote private partnerships against cyber threats. “[It’s] essentially a framework that allows INTERPOL to have data sharing agreements, with private sector companies, to enrich our information, and resources for the purpose of conducting cybercrime analysis,” Lee explained of the program, which currently has 13 partner organizations like national CERTs, other international organizations, non-government organizations, academia, civil societies, and the global law enforcement community at large.
+
+
+“We firmly believe that the adoption of Project Gateway will create momentum for INTERPOL to expand, enhance, and diversify our partnerships to receive more information, and data,” Lee said. “To protect our growing digital economies, a new generation of public private-partnerships is really needed to address cyber threats.”
+
+
+
+
+Learn more about the Digital Forensics Graduate Certificate at BU MET
+
+
+
+
+Joining Lee for a discussion was Dr. Nicole S. van der Meulen, who earned her doctorate studying digital finance identity theft and today is the senior strategic analyst for the European Cybercrime Center at Europol (EC3). A veteran of the field, van der Meulen developed the Netherlands’ first cyberthreat assessment. Now, she heads the policy development team of the EU agency tasked with digital forensics relating to cross-border criminal activities and strategic analysis. “The purpose there is since it is focused on cross-border crime, there is obviously a need for coordination, and an ability to facilitate cooperation. So that is where Europol comes in,” she said.
+
+
+Because of their strategy role, EC3 is often at the public front of investigations. “We do a lot with partners, especially partners from the private sector,” van der Meulen explained. With the Joint Cyber Crime Action Task Force, liaison officers from all of these countries work together, and even share offices, while working on cases involving credit card fraud and ATM attacks.
+
+
+Part of EC3’s role is to represent the voice of law enforcement for the EU, even as legalities across nations complicate investigations into matters like money laundering. “A lot of countries are involved, but we also involve the banks, and other financial institutions. So that really comes together, in order to identify money mules, to interview them, to arrest them, and to really stop fraudulent transactions from taking place,” van der Meulen said.
+
+
+The EC3 plays a role in identifying and arresting malicious actors on the Dark Web, but not before mining those investigations for valued intel. “It’s also about gathering intelligence before you do that takedown—intelligence about vendors, such as suppliers, but also about buyers, to see what perpetrators can we actually identify. So, we go beyond destructing the infrastructure.”
+
+
+Sometimes, she explained, the best weapon is simply providing information. “One of our most successful prevention and awareness campaigns has been ‘
+No More Ransom
+.’ If you ever fall victim to ransomware, please visit it,” she remarked.
+
+
+The leaders agreed collaboration has been fundamental to their developing successes. As Lee explained, INTERPOL has found recent success with its Operation Falcon, dedicated against an organized crime group responsible for distributing malware, and carrying out phishing campaigns, and extensive business email compromise scams.
+
+
+“This has been a year-long investigation, which is still ongoing, whereby the INTERPOL cybercrime directorate worked together with our financial crime unit, which is under the organizing and emerging crime directorate,” Lee explained. “We have worked closely with our private partners, group IB, as well as the Nigerian police force via the National Central Bureau, to take swift action against the perpetrators. The investigation is still ongoing. But as we understand it, this gang is believed to have compromised government and private sector companies in more than 150 countries since 2017. We believe that we have identified more than 50,000 victims so far.”
+
+
+Thanks to Project Gateway, “The framework that allows us to cooperate with private partners and receive threat data,” as the INTERPOL cybercrime directorate head describes it, the culprits were caught. “Following this joint cybercrime investigation, there were three suspects who were arrested in Lagos, Nigeria, in late 2020.”
+
+
+To continue keeping pace with the threats, the EC3 is planning to revive its academic advisory group. “It’s to stay in touch, really to have people who are willing to be in touch with us, in terms of what is the latest research in various areas,” van der Meulen said.
+
+
+For INTERPOL, the ongoing goals are to develop knowledge exchanges for worldwide law enforcement officials to share strategies, trends, and technology on secure platforms, and to create a global “anti-scam” network. With the wealth of White Hat attendees on hand at the conference, the vision of a more cyber-secure global was nearer than ever. 
+
+
+Expanding the Field
+
+
+The Student Computer Forensics and Digital Evidence Educational Opportunities Program grant has a mission to develop the next generation of cyber guardians, helping equip law enforcement with incoming talent to meet the ongoing security demands. As such, the job fair was a major component to the White Hat Conference, connecting students with the information they need to secure professional opportunities in law enforcement, directly from the sources. 
+
+
+Representatives from the FBI and Homeland Security Investigation gave attendees inside tips on available opportunities in federal government, what agencies look for in applicants, internship opportunities within computer forensics and digital evidence, and what candidates can expect in the hiring process.
+
+
+Moderating the fair was Madeleine Nay (MET’18), who credits her promotion to an intelligence operations technician in the gang unit of California’s Department of Corrections and Rehabilitation to her BU MET 
+MS in Criminal Justice, Concentration in Cybercrime Investigation & Cybersecurity degree.
+
+
+
+
+CAREER CASE STUDY: BU MET Cybercrime Investigation & Cybersecurity Alum Madeleine Nay Puts Skills to Work
+
+
+
+
+Given the sensitivity of their security roles, the FBI and HSI agents leading the job fair discussion remained anonymous—but they were forthcoming with the many opportunities their agencies held. One misconception they addressed was the idea that everyone working within federal agencies need to be special agents themselves. 
+
+
+“There are a lot of opportunities that really no one thinks of being available in some place like the FBI,” one explained of the many supporting roles to be played. “There’re actually over 200 positions that are non-agent positions with the FBI,” he said, citing examples like intelligence analysts, computer scientists, forensic accountants, computer engineers, electronic technicians, data analysts, IT specialists, management and program specialists, surveillance specialists, linguists, victim specialists. “The list goes on. If you want to work for the FBI, we can absolutely find a spot for you.” 
+
+
+Sometimes, needs are regional. “Just a few years ago Boston was hiring for an FBI nurse and so when you went to the job posting it said FBI Boston nurse,” they explained. “So sometimes on the location and sometimes you’re just blindly applying to whatever openings are that you would be willing to go to.”
+
+
+One surefire way to get a foot in the door is via internship. “The interns really do work side by side with all the different squads, will be embedded within a squad whether it’s white collar, gangs, cyber, you name it, we have it,” an analyst in the Boston FBI cybercrime unit said. “Basically, the intern’s job is to help cover the needs or to help progress the cases.”
+
+
+HSI’s student volunteer program provides students at undergraduate and graduate levels the chance to get unpaid professional training by working with special agents or criminal analysts on actual investigations. 
+
+
+All the representatives agreed on one thing: the best way to pursue a career in federal law enforcement was to introduce yourself, whether through recruiters or official job websites. “The more people you talk to in the organization, the more you’re going to learn and probably get excited about the prospects and the opportunities that could be available in your future,” one offered. 
+
+
+“We’re really looking for all different kinds,” they said. “So please don’t shy away from applying because you don’t think that you fit a certain mold—there is no mold.”  
+
+
+Historically Secure
+
+
+MET Senior Associate Dean and Director of Health Informatics 
+Lou Chitkushev
+, co-PI on the BJA grant, noted in his closing address that it was no accident that this third installment of the cybersecurity conference was held at Metropolitan College. After all, the College has been dedicated to the cause of global security for decades, developing expertise through applied interdisciplinary research. 
+
+
+“Twenty years ago, it was September 11, 2001, that really changed the way we looked at cybersecurity, and the way we looked at security in general,” said Dr. Chitkushev. “In 2003, we certified the information security programs at MET’s Department of Computer Science.”
+
+
+With more and more people storing more and more information on digital cloud servers, EHRs, smart grid nanotech, and crypto, the opportunities for “black hats” to strike are mounting. 
+
+
+“I expect that really we are going to see much more Byzantine-type of attacks of people, or entities within the network who, are in dormant cells, or they have been authenticated at the time, and after that they have compromised their security issues,” Chitkushev told the online audience. “All these things are putting tremendous pressure on cybersecurity. They’re increasing the amount of data; they’re increasing the size of devices.” 
+
+
+
+
+Learn more about the Information Security Graduate Certificate at BU MET
+
+
+
+
+The opportunities for predatory personal crimes are mounting. “Unfortunately, the cybersecurity crimes will continue to increase in intensity and sophistication. And I would say on a massive global scale,” Chitkushev said. 
+
+
+As Chitkushev sees it, the need for an influx in cybercrime and cybersecurity talent is dire. Equally critical is that those working in the field stay informed and up to date on new hardware and operating systems. 
+
+
+In the end, he said, conferences like the White Hat are important because a worldwide fight requires worldwide resources. “It puts researchers and collaborators all around the globe together to exchange and work together on techniques, and the possibilities of how to fight any crime.” 
+
+
+Terrier Pride
+
+
+The keynote address was given by a figure familiar to the MET community—Sean Donnelly (MET’18), a 
+Master of Science in Computer Information Systems
+ graduate 
+recently named to 
+Forbes
+’s prestigious 2021 “30 Under 30” list
+ of entrepreneurs on the rise and the founder and CEO of modular cybersecurity training firm Resolvn.
+
+
+MET Alum and entrepreneur Sean Donnelly gives a keynote speech.
+
+
+Donnelly offered lessons on means for overcoming technical skill gaps, different digital forensics disciplines, and knowledge sources for ongoing security technical information. But perhaps his most resonant message was his observation on what qualities bring success in the field.
+
+
+“Throughout the hundreds of technical cybersecurity professionals I’ve met and led throughout my career, all of the really good ones shared two character traits: curiosity and motivation,” Donnelly told the audience.
+
+
+Those qualities were in no short order across the White Hat Conference. 
+View the full 2021 International White Hat Conference proceedings
+.
+
+
+
+
+Connect with Us
+
+
+Apply
+Request Information
+Meet An Advisor
+
+
+
+
+
+
+
+
+What to Read Next: MET Criminal Justice Knowledge Center
+
+
+
+
+Criminal Justice Student Stories
+
+
+Why Get a Master's Degree in Criminal Justice at BU MET?
+
+
+What Do My Career Options Look Like with a BU Master's in Criminal Justice?
+
+
+Are There Different Criminal Justice Graduate Programs or Specializations at BU?
+
+
+Alumni Profile: BU MET Master's in Criminal Justice
+
+
+White Hat Hackers Team Up in International Cybercriminology Conference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boston University
+ 
+Boston University
+ Metropolitan College
+© 2025 Trustees of Boston University
+
+
+DMCA
+
+
+Privacy
+
+
+Sitemap
+
+
+MET Job Board
+
+
+Contact Us
+
+
+
+
+Facebook
+
+
+Instagram
+
+
+LinkedIn
+
+
+Twitter
+
+
+YouTube
+
+
+
+
+©  Boston University. All rights reserved. www.bu.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to top

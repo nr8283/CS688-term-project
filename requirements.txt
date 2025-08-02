@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+transformers
+torch
+sentence-transformers
+faiss-cpu
+langchain
+openai
+tiktoken
+beautifulsoup4
+requests

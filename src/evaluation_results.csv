@@ -1,0 +1,99 @@
+Query,Model,Answer,Response Time (s),Sources,Manual Accuracy (1-5)
+ms ada,gpt-4o-mini,"It seems like you are asking about the Master of Science in Applied Business Analytics (MS ABA) program at Boston University’s Metropolitan College (BU MET). This program focuses on equipping students with the skills needed to analyze data and make data-driven decisions in a business context. 
+
+If you have specific questions about the program, such as admission requirements, curriculum, or career outcomes, please let me know, and I would be happy to provide more information!",3.06,"met_degrees-certificates_ms-applied-business-analytics.txt, met_degrees-certificates_ms-computer-information-systems-data-analytics.txt, met_degrees-certificates_ms-computer-information-systems-security.txt, met_programs_computer-science-it_programs-specializations.txt, met_programs_graduate_computer-information-systems_data-analytics.txt",
+ms computer information systems,gpt-4o-mini,"The Master of Science in Computer Information Systems (MS CIS) at Boston University’s Metropolitan College (BU MET) is designed to prepare students for various roles in the IT industry. The program offers several concentrations, including Database Management & Business Intelligence, Data Analytics, Computer Networks, and Security, among others.
+
+### Key Features of the MS in Computer Information Systems:
+
+1. **Curriculum**: The program requires a total of 40 units, which includes core courses and concentration-specific requirements. Core courses cover foundational topics in information technology, data communication, and networks.
+
+2. **Concentrations**: Students can choose from multiple concentrations, each focusing on different aspects of computer information systems:
+   - **Database Management & Business Intelligence**
+   - **Data Analytics**
+   - **Computer Networks**
+   - **Security**
+
+3. **Career Opportunities**: Graduates are prepared for various roles such as application analyst, data analyst, data scientist, cybersecurity analyst, IT consultant, network administrator, systems analyst, and database administrator. The program is aligned with fast-growing segments of the IT job market, with competitive salaries.
+
+4. **Certificate-to-Degree Pathway**: Students can transition from graduate certificates in related fields to the master’s degree without needing to submit a new application. This pathway allows for a more streamlined educational experience.
+
+5. **Hands-On Experience**: The program emphasizes practical skills, providing students with hands-on experience in areas like data mining, web analytics, and network security.
+
+6. **No GRE/GMAT Required**: Applicants do not need to submit GRE or GMAT scores for admission.
+
+7. **Flexible Learning Options**: The program is available both online and on campus, allowing students to choose a study format that fits their lifestyle.
+
+8. **Duration**: The program can typically be completed in 12 to 20 months, depending on whether students study part-time or full-time.
+
+For more information or specific questions about the program, prospective students can contact the graduate admissions advisor at csadmissions@bu.edu.",11.59,"met_degrees-certificates_ms-computer-information-systems-computer-networks.txt, met_degrees-certificates_ms-computer-information-systems-data-analytics.txt, met_degrees-certificates_ms-computer-information-systems-database-management-business-intelligence.txt, met_degrees-certificates_ms-computer-information-systems-security.txt, met_programs_graduate_computer-information-systems_data-analytics.txt",
+criminal justice,gpt-4o-mini,"The Boston University Metropolitan College (BU MET) offers a Master of Science in Criminal Justice (MSCJ) program designed for professionals looking to enter or advance in the field of criminal justice. The program emphasizes practical, adaptable knowledge and skills that can be applied immediately in the workplace. 
+
+Key features of the program include:
+
+1. **Concentrations**: Students can choose from several concentrations, including Crime Analysis, Cybercrime Investigation & Cybersecurity, and Strategic Management.
+
+2. **Curriculum**: The program covers core topics such as criminology, crime policy, and the ethical implications of criminal justice practices. Students will also learn to analyze criminal behavior and apply leadership principles in organizational settings.
+
+3. **Certificate-to-Degree Pathway**: Graduate certificate programs in related areas can serve as stepping stones to the master's degree. Students can transition from a graduate certificate to the master's program without needing to submit a new application.
+
+4. **Dual Concentration Option**: Students have the option to complete two concentrations by taking just two additional courses, allowing for a broader skill set.
+
+5. **Tuition and Financial Assistance**: BU MET offers competitive tuition rates and various financial assistance options, including scholarships and graduate loans.
+
+6. **Flexible Learning**: The program can be pursued part-time or full-time, with options for online or on-campus study.
+
+For more information about the program, including specific courses and faculty, you can contact a graduate admissions advisor at apssadmissions@bu.edu.",6.46,"met_degrees-certificates_ms-criminal-justice-crime-analysis.txt, met_degrees-certificates_ms-criminal-justice-strategic-management.txt, met_degrees-certificates_ms-criminal-justice.txt, met_programs_criminal-justice_why-get-mscj-at-bu-met.txt, met_programs_graduate_criminal-justice_crime-analysis-concentration.txt",
+cybersecurity,gpt-4o-mini,"It seems you're interested in information related to cybersecurity. Here are some key points regarding the cybersecurity courses offered at Boston University Metropolitan College (BU MET):
+
+1. **Cybersecurity Capstone (MET CJ 812)**: This course focuses on identifying and mitigating cybersecurity threats through threat modeling and best practices. It includes a three-phased approach: Cybersecurity Threat Modeling, Cybersecurity Tools and Techniques, and Cybersecurity Practical Exercises.
+
+2. **Enterprise Cybersecurity Management (MET CS 684)**: This course covers governance, risk management, asset classification, and incident response. It prepares students to build effective cybersecurity and privacy programs aligned with business goals.
+
+3. **Digital Forensics and Investigations (MET CS 693)**: This course provides a comprehensive understanding of digital forensics, including the investigative process, operating system architectures, and forensic tools.
+
+4. **Cryptography (MET CS 789)**: This course emphasizes public key cryptography and covers various algorithms and protocols essential for secure communications.
+
+5. **Computer Vision in AI (MET CS 790)**: This course explores the intersection of AI and cybersecurity, focusing on protecting AI systems and using AI to enhance cybersecurity measures.
+
+6. **Generative AI (MET CS 788)**: This course covers statistical concepts and neural network architectures relevant to generative AI, including applications in cybersecurity.
+
+If you have specific questions about any of these courses or other aspects of the cybersecurity program, feel free to ask!",7.45,"met_degrees-certificates_cybercrime-investigation-cybersecurity-graduate-certificate.txt, met_degrees-certificates_medical-information-security-privacy-graduate-certificate.txt, met_degrees-certificates_ms-computer-science-data-analytics.txt, met_programs_graduate_computer-science_data-analytics.txt, met_programs_graduate_medical-information-security-privacy-certificate.txt",
+data science,gpt-4o-mini,"Data science is an interdisciplinary field that combines various techniques and theories from statistics, mathematics, computer science, and domain knowledge to extract insights and knowledge from structured and unstructured data. It involves several key components, including:
+
+1. **Data Collection**: Gathering data from various sources, which can include databases, web scraping, APIs, and more.
+
+2. **Data Cleaning and Preparation**: Processing raw data to remove inaccuracies, handle missing values, and format it for analysis.
+
+3. **Data Analysis**: Applying statistical methods and algorithms to explore and analyze data, identifying patterns and trends.
+
+4. **Machine Learning**: Implementing algorithms that allow computers to learn from data and make predictions or decisions without being explicitly programmed.
+
+5. **Data Visualization**: Creating visual representations of data to communicate findings effectively, using charts, graphs, and dashboards.
+
+6. **Interpretation and Communication**: Translating complex data insights into actionable recommendations for stakeholders.
+
+Data science is widely used across various industries, including finance, healthcare, marketing, and technology, to drive decision-making and improve outcomes. The Master of Science in Applied Data Analytics at BU MET prepares students with the necessary skills and knowledge to excel in this field, focusing on practical applications and industry-relevant tools.",5.71,"met_degrees-certificates_data-analytics-graduate-certificate.txt, met_degrees-certificates_ms-applied-data-analytics.txt, met_programs_computer-science-it_career-outlook.txt, met_programs_graduate_applied-data-analytics.txt, met_programs_graduate_data-analytics-certificate.txt",
+Applied Data Analytics program requirements,gpt-4o-mini,"The Master of Science in Applied Data Analytics program at Boston University Metropolitan College (BU MET) has specific requirements for admission and completion. Here are the key components:
+
+### Admission Requirements:
+1. **Bachelor's Degree**: Applicants must hold a bachelor's degree from an accredited institution.
+2. **Transcripts**: Submission of official transcripts from all post-secondary institutions attended.
+3. **Resume/CV**: A current resume or curriculum vitae outlining relevant work experience and education.
+4. **Statement of Purpose**: A written statement that outlines your goals for pursuing the degree and how it aligns with your career aspirations.
+5. **Letters of Recommendation**: Typically, two or three letters of recommendation from individuals who can speak to your academic or professional qualifications.
+6. **Standardized Test Scores**: GRE scores are not required, but may be submitted if they enhance your application.
+7. **English Proficiency**: For non-native English speakers, proof of English proficiency through TOEFL or IELTS scores may be required.
+
+### Program Requirements:
+1. **Total Units**: A total of 32 units are required to complete the degree.
+2. **Core Courses (24 units)**: Students must complete six core courses, which include:
+   - MET CS 544 Foundations of Analytics and Data Visualization
+   - Additional core courses covering topics such as applied machine learning, databases, and data processing methods.
+3. **Elective Courses (8 units)**: Students must complete two elective courses from a specified list that complements their core studies.
+4. **Prerequisites**: Some courses may have prerequisites, such as MET AD 571 Business Analytics Foundations, which is a prerequisite for several advanced courses.
+
+### Certificate-to-Degree Pathway:
+Students enrolled in the Graduate Certificate in Data Analytics or the Graduate Certificate in Database Management & Business Intelligence can transition into the master's program without needing to submit a new application. They should contact their academic advisor to declare their interest in this pathway.
+
+For more detailed information or specific questions, prospective students are encouraged to connect with a graduate admissions advisor at csadmissions@bu.edu.",10.32,"met_degrees-certificates_applied-business-analytics-graduate-certificate.txt, met_degrees-certificates_ms-applied-data-analytics.txt, met_programs_analytics-data-business.txt, met_programs_graduate_applied-business-analytics-certificate.txt, met_programs_graduate_applied-data-analytics.txt",

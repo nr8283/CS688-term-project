@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html class="no-js ie lt-ie9 lt-ie8 lt-ie7"  lang="en"> <![endif]-->
+<!--[if IE 7]>        <html class="no-js ie lt-ie9 lt-ie8"  lang="en"> <![endif]-->
+<!--[if IE 8]>        <html class="no-js ie lt-ie9"  lang="en"> <![endif]-->
+<!--[if IE 9]>        <html class="no-js ie ie9"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"  lang="en"><!--<![endif]-->
+<head>
+	<title>International White Hat Cybercriminology Conference | BU MET</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[]}};(window.NREUM||(NREUM={})).loader_config={xpid:"UgUAV1RQGwQCVVNXAwY=",licenseKey:"b19c58809e",applicationID:"7212547"};;/*! For license information please see nr-loader-full-1.293.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={8122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){r[a]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555:(e,t,r)=>{"use strict";r.d(t,{D:()=>s,f:()=>a});var n=r(384),i=r(8122);const o={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function a(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const s=e=>(0,i.a)(e,o)},9324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>o,Yq:()=>a,xv:()=>n});const n="1.293.0",i="PROD",o="CDN",a="^2.0.0-alpha.18"},6154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>d,RI:()=>i,WN:()=>f,bv:()=>o,gm:()=>a,lR:()=>l,m:()=>c,mw:()=>s,sb:()=>u});var n=r(1863);const i="undefined"!=typeof window&&!!window.document,o="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===a?.document?.visibilityState),c=""+a?.location,d=/iPad|iPhone|iPod/.test(a.navigator?.userAgent),u=d&&"undefined"==typeof SharedWorker,l=(()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Date.now()-(0,n.t)()},7295:(e,t,r)=>{"use strict";r.d(t,{Xv:()=>a,gX:()=>i,iW:()=>o});var n=[];function i(e){if(!e||o(e))return!1;if(0===n.length)return!0;for(var t=0;t<n.length;t++){var r=n[t];if("*"===r.hostname)return!1;if(s(r.hostname,e.hostname)&&c(r.pathname,e.pathname))return!1}return!0}function o(e){return void 0===e.hostname}function a(e){if(n=[],e&&e.length)for(var t=0;t<e.length;t++){let r=e[t];if(!r)continue;0===r.indexOf("http://")?r=r.substring(7):0===r.indexOf("https://")&&(r=r.substring(8));const i=r.indexOf("/");let o,a;i>0?(o=r.substring(0,i),a=r.substring(i)):(o=r,a="");let[s]=o.split(":");n.push({hostname:s,pathname:a})}}function s(e,t){return!(e.length>t.length)&&t.indexOf(e)===t.length-e.length}function c(e,t){return 0===e.indexOf("/")&&(e=e.substring(1)),0===t.indexOf("/")&&(t=t.substring(1)),""===e||e===t}},3241:(e,t,r)=>{"use strict";r.d(t,{W:()=>o});var n=r(6154);const i="newrelic";function o(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},1687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>d,Ze:()=>f,x3:()=>u});var n=r(3241),i=r(7836),o=r(3606),a=r(860),s=r(2646);const c={};function d(e,t){const r={staged:!1,priority:a.P3[t]||0};l(e),c[e].get(t)||c[e].set(t,r)}function u(e,t){e&&c[e]&&(c[e].get(t)&&c[e].delete(t),p(e,t,!1),c[e].size&&h(e))}function l(e){if(!e)throw new Error("agentIdentifier required");c[e]||(c[e]=new Map)}function f(e="",t="feature",r=!1){if(l(e),!e||!c[e].get(t)||r)return p(e,t);c[e].get(t).staged=!0,h(e)}function h(e){const t=Array.from(c[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{c[e].delete(t),p(e,t)})))}function p(e,t,r=!0){const a=e?i.ee.get(e):i.ee,c=o.i.handlers;if(!a.aborted&&a.backlog&&c){if((0,n.W)({agentIdentifier:e,type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=c[t];if(r){for(let t=0;e&&t<e.length;++t)g(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof s.y&&t[0].on(e,t[1])}))}))}}a.isolatedBacklog||delete c[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function g(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],o=e[2];n.apply(i,o)}}))}},7836:(e,t,r)=>{"use strict";r.d(t,{P:()=>s,ee:()=>c});var n=r(384),i=r(8990),o=r(2646),a=r(5607);const s="nr@context:".concat(a.W),c=function e(t,r){var n={},a={},u={},l=!1;try{l=16===r.length&&d.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(c.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var s=h(n),d=g(e),u=d.length,l=0;l<u;l++)d[l].apply(s,r);var p=v()[a[e]];p&&p.push([f,e,r,s]);return s},get:m,listeners:g,context:h,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{a[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[a[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function h(e){return e&&e instanceof o.y?e:e?(0,i.I)(e,s,(()=>new o.y(s))):new o.y(s)}function p(e,t){n[e]=g(e).concat(t)}function g(e){return n[e]||[]}function m(t){return u[t]=u[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.Zm)();d.ee||(d.ee=c)},2646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606:(e,t,r)=>{"use strict";r.d(t,{i:()=>o});var n=r(9908);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.d,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.d);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function o(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>o,jT:()=>n,sp:()=>i})},5607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(9566).bz)()},9566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,ZF:()=>c,bz:()=>a,el:()=>d});var n=r(6154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}function c(){return s(16)}function d(){return s(32)}},2614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>a,H3:()=>n,g:()=>d,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>o});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},d={OFF:0,FULL:1,ERROR:2}},1863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},7485:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(6154);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n.gm?.location?.protocol&&t.host===n.gm?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({agentIdentifier:null,drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},5701:(e,t,r)=>{"use strict";r.d(t,{B:()=>o,t:()=>a});var n=r(3241);const i=new Set,o={};function a(e,t){const r=t.agentIdentifier;o[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),o[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},8990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},3304:(e,t,r)=>{"use strict";r.d(t,{A:()=>o});var n=r(7836);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())??""}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}return""}}},3496:(e,t,r)=>{"use strict";function n(e){return!e||!(!e.licenseKey||!e.applicationID)}function i(e,t){return!e||e.licenseKey===t.info.licenseKey&&e.applicationID===t.info.applicationID}r.d(t,{A:()=>i,I:()=>n})},5289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>o,Qr:()=>s,sB:()=>a});var n=r(3878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.sp)("load",e,t)}function a(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}function s(e){if(i())return e();(0,n.sp)("popstate",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>o,US:()=>d,Zm:()=>a,bQ:()=>c,dV:()=>s,pV:()=>u});var n=r(6154),i=r(1863);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function s(){let e=a();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},2843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},8139:(e,t,r)=>{"use strict";r.d(t,{u:()=>f});var n=r(7836),i=r(3434),o=r(8990),a=r(6154);const s={},c=a.gm.XMLHttpRequest,d="addEventListener",u="removeEventListener",l="nr@wrapped:".concat(n.P);function f(e){var t=function(e){return(e||n.ee).get("events")}(e);if(s[t.debugId]++)return t;s[t.debugId]=1;var r=(0,i.YM)(t,!0);function f(e){r.inPlace(e,[d,u],"-",p)}function p(e,t){return e[1]}return"getPrototypeOf"in Object&&(a.RI&&h(document,f),c&&h(c.prototype,f),h(a.gm,f)),t.on(d+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,o.I)(n,l,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(u+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function h(e,t,...r){let n=e;for(;"object"==typeof n&&!Object.prototype.hasOwnProperty.call(n,d);)n=Object.getPrototypeOf(n);n&&t(n,...r)}},3434:(e,t,r)=>{"use strict";r.d(t,{Jt:()=>o,YM:()=>c});var n=r(7836),i=r(5607);const o="nr@original:".concat(i.W);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],d=e[c];u(d)||(e[c]=r(d,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return u(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){d([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,u,l;let f;try{a=this,o=[...arguments],u="function"==typeof n?n(o,a):n||{}}catch(t){d([t,"",[o,a,s],u],e)}i(r+"start",[o,a,s],u,c);const h=performance.now();let p=h;try{return l=t.apply(a,o),p=performance.now(),l}catch(e){throw p=performance.now(),i(r+"err",[o,a,e],u,c),f=e,f}finally{const e=p-h,t={duration:e,isLongTask:e>=50,methodName:s,thrownError:f};t.isLongTask&&i("long-task",[t],u,c),i(r+"end",[o,a,l,t],u,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){d([t,r,n,i],e)}s=a}}}function d(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function u(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}},9300:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.ajax},3333:(e,t,r)=>{"use strict";r.d(t,{$v:()=>d,TZ:()=>n,Zp:()=>i,kd:()=>c,mq:()=>s,nf:()=>a,qN:()=>o});const n=r(860).K7.genericEvents,i=["auxclick","click","copy","keydown","paste","scrollend"],o=["focus","blur"],a=4,s=1e3,c=["PageAction","UserAction","BrowserPerformance"],d={MARKS:"experimental.marks",MEASURES:"experimental.measures",RESOURCES:"experimental.resources"}},6774:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.jserrors},993:(e,t,r)=>{"use strict";r.d(t,{A$:()=>o,ET:()=>a,TZ:()=>s,p_:()=>i});var n=r(860);const i={ERROR:"ERROR",WARN:"WARN",INFO:"INFO",DEBUG:"DEBUG",TRACE:"TRACE"},o={OFF:0,ERROR:1,WARN:2,INFO:3,DEBUG:4,TRACE:5},a="log",s=n.K7.logging},3785:(e,t,r)=>{"use strict";r.d(t,{R:()=>c,b:()=>d});var n=r(9908),i=r(1863),o=r(860),a=r(8154),s=r(993);function c(e,t,r={},c=s.p_.INFO,d,u=(0,i.t)()){(0,n.p)(a.xV,["API/logging/".concat(c.toLowerCase(),"/called")],void 0,o.K7.metrics,e),(0,n.p)(s.ET,[u,t,r,c,d],void 0,o.K7.logging,e)}function d(e){return"string"==typeof e&&Object.values(s.p_).some((t=>t===e.toUpperCase().trim()))}},8154:(e,t,r)=>{"use strict";r.d(t,{z_:()=>o,XG:()=>s,TZ:()=>n,rs:()=>i,xV:()=>a});r(6154),r(9566),r(384);const n=r(860).K7.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},6630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},6344:(e,t,r)=>{"use strict";r.d(t,{BB:()=>u,G4:()=>o,Qb:()=>l,TZ:()=>i,Ug:()=>a,_s:()=>s,bc:()=>d,yP:()=>c});var n=r(2614);const i=r(860).K7.sessionReplay,o={RECORD:"recordReplay",PAUSE:"pauseReplay",ERROR_DURING_REPLAY:"errorDuringReplay"},a=.12,s={DomContentLoaded:0,Load:1,FullSnapshot:2,IncrementalSnapshot:3,Meta:4,Custom:5},c={[n.g.ERROR]:15e3,[n.g.FULL]:3e5,[n.g.OFF]:0},d={RESET:{message:"Session was reset",sm:"Reset"},IMPORT:{message:"Recorder failed to import",sm:"Import"},TOO_MANY:{message:"429: Too Many Requests",sm:"Too-Many"},TOO_BIG:{message:"Payload was too large",sm:"Too-Big"},CROSS_TAB:{message:"Session Entity was set to OFF on another tab",sm:"Cross-Tab"},ENTITLEMENTS:{message:"Session Replay is not allowed and will not be started",sm:"Entitlement"}},u=5e3,l={API:"api"}},5270:(e,t,r)=>{"use strict";r.d(t,{Aw:()=>s,CT:()=>c,SR:()=>a,rF:()=>d});var n=r(384),i=r(7767),o=r(6154);function a(e){return!!(0,n.dV)().o.MO&&(0,i.V)(e)&&!0===e?.session_trace.enabled}function s(e){return!0===e?.session_replay.preload&&a(e)}function c(e,t){const r=t.correctAbsoluteTimestamp(e);return{originalTimestamp:e,correctedTimestamp:r,timestampDiff:e-r,originTime:o.WN,correctedOriginTime:t.correctedOriginTime,originTimeDiff:Math.floor(o.WN-t.correctedOriginTime)}}function d(e,t){try{if("string"==typeof t?.type){if("password"===t.type.toLowerCase())return"*".repeat(e?.length||0);if(void 0!==t?.dataset?.nrUnmask||t?.classList?.contains("nr-unmask"))return e}}catch(e){}return"string"==typeof e?e.replace(/[\S]/g,"*"):"*".repeat(e?.length||0)}},3738:(e,t,r)=>{"use strict";r.d(t,{He:()=>i,Kp:()=>s,Lc:()=>d,Rz:()=>u,TZ:()=>n,bD:()=>o,d3:()=>a,jx:()=>l,uP:()=>c});const n=r(860).K7.sessionTrace,i="bstResource",o="resource",a="-start",s="-end",c="fn"+a,d="fn"+s,u="pushState",l=1e3},4234:(e,t,r)=>{"use strict";r.d(t,{W:()=>o});var n=r(7836),i=r(1687);class o{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},7767:(e,t,r)=>{"use strict";r.d(t,{V:()=>i});var n=r(6154);const i=e=>n.RI&&!0===e?.privacy.cookies_enabled},1741:(e,t,r)=>{"use strict";r.d(t,{W:()=>o});var n=r(944),i=r(4261);class o{#e(e,...t){if(this[e]!==o.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(){return this.#e(i.dT)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}}},4261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>d,BL:()=>s,CH:()=>h,Dl:()=>R,Fw:()=>y,PA:()=>m,Pl:()=>n,Tb:()=>l,U2:()=>o,V1:()=>T,Wb:()=>w,bt:()=>b,cD:()=>v,d3:()=>x,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>a,nb:()=>g,o5:()=>u});const n="api-",i="addPageAction",o="addToTrace",a="addRelease",s="finished",c="interaction",d="log",u="noticeError",l="pauseReplay",f="recordCustomEvent",h="recordReplay",p="register",g="setApplicationVersion",m="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",R="setUserId",x="start",w="wrapLogger",T="measure"},5205:(e,t,r)=>{"use strict";r.d(t,{j:()=>A});var n=r(384),i=r(1741);var o=r(2555),a=r(3333);const s=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var c=r(2614),d=r(944),u=r(8122);const l="[data-nr-mask]",f=e=>(0,u.a)(e,(()=>{const e={feature_flags:[],experimental:{marks:!1,measures:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{allow_registered_children:!0,duplicate_registered_data:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{get capture_marks(){return e.feature_flags.includes(a.$v.MARKS)||e.experimental.marks},set capture_marks(t){e.experimental.marks=t},get capture_measures(){return e.feature_flags.includes(a.$v.MEASURES)||e.experimental.measures},set capture_measures(t){e.experimental.measures=t},capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(a.$v.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:c.wk,inactiveMs:c.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){s(t)?e.mask_selector="".concat(t,",").concat(l):""===t||null===t?e.mask_selector=l:(0,d.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){s(t)?e.block_selector+=",".concat(t):""!==t&&(0,d.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,d.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var h=r(6154),p=r(9324);let g=0;const m={buildEnv:p.F3,distMethod:p.Xs,version:p.xv,originTime:h.WN},v={appMetadata:{},customTransaction:void 0,denyList:void 0,disabled:!1,entityManager:void 0,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,get harvestCount(){return++g}},b=e=>{const t=(0,u.a)(e,v),r=Object.keys(m).reduce(((e,t)=>(e[t]={value:m[t],writable:!1,configurable:!0,enumerable:!0},e)),{});return Object.defineProperties(t,r)};var y=r(5701);const R=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var x=r(7836),w=r(3241);const T={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_=e=>(0,u.a)(e,T),S=new Set;function A(e,t={},r,a){let{init:s,info:c,loader_config:d,runtime:u={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();s=e.init,c=e.info,d=e.loader_config}e.init=f(s||{}),e.loader_config=_(d||{}),c.jsAttributes??={},h.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,o.D)(c);const p=e.init,g=[c.beacon,c.errorBeacon];S.has(e.agentIdentifier)||(p.proxy.assets&&(R(p.proxy.assets),g.push(p.proxy.assets)),p.proxy.beacon&&g.push(p.proxy.beacon),function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach((r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let o=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return o?o(...t):n})}))}(e),(0,n.US)("activatedFeatures",y.B),e.runSoftNavOverSpa&&=!0===p.soft_navigations.enabled&&p.feature_flags.includes("soft_nav")),u.denyList=[...p.ajax.deny_list||[],...p.ajax.block_internal?g:[]],u.ptid=e.agentIdentifier,u.loaderType=r,e.runtime=b(u),S.has(e.agentIdentifier)||(e.ee=x.ee.get(e.agentIdentifier),e.exposed=l,(0,w.W)({agentIdentifier:e.agentIdentifier,drained:!!y.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),S.add(e.agentIdentifier)}},8374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>u,K7:()=>c,P3:()=>d,XX:()=>i,Yy:()=>s,df:()=>o,qY:()=>n,v4:()=>a});const n="events",i="jserrors",o="browser/blobs",a="rum",s="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},d={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},u={[c.pageViewEvent]:a,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:o,[c.sessionReplay]:o,[c.logging]:s,[c.genericEvents]:"ins"}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({95:"nr-full-compressor",222:"nr-full-recorder",891:"nr-full"}[e]+"-1.293.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.293.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={891:"sha512-q1qwwuh2CjbNf9+XbrDpF3NjmP4EjIG2IzvS6+uqrtnkYhNz6QzPlU7Uno/JYatZOt7eJiPxnoqWDVpftyyrKA==",222:"sha512-3jzdBnOxtuGFhYtnQYVBj72uFrYGaZAqDpGy3vYF7JvL0B254kBVlbVHOrGkfPt7lVOAROXFPZRw/Uu8U2d2rg==",95:"sha512-ZoGRSLvyM9nbFVD97VtBJgQ5rPZb6tiQpUzlgo4e3mWy7hJ0/0K/wbmRJKBW2Yoj+lLfvjOuSENrHiP0SIYJQg=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var h=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(h.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=h.bind(null,s.onerror),s.onload=h.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={85:0,959:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,d=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.293.0.PROD"]=self["webpackChunk:NRBA-1.293.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8374);var e=i(9566),t=i(1741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const o=Object.values(n.K7);var a=i(5205);var s=i(9908),c=i(1863),d=i(4261),u=i(3241),l=i(944),f=i(5701),h=i(8154);function p(e,t,i,o){const a=o||i;!a||a[e]&&a[e]!==r.prototype[e]||(a[e]=function(){(0,s.p)(h.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,u.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:d.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function g(e,t,r,n,i){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(i||null===r)&&(0,s.p)(d.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var m=i(1687),v=i(4234),b=i(5289),y=i(6154),R=i(5270),x=i(7767),w=i(6389);class T extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise(((t,r)=>{this.ee.on("manual-start-all",(0,w.J)((()=>{(0,m.Ak)(e.agentIdentifier,this.featureName),t()})))})):(0,m.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let a;await this.deferred;try{if((0,x.V)(e.init)){const{setupAgentSession:t}=await i.e(891).then(i.bind(i,6526));a=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),this.featureName===n.K7.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,a,e.init))return(0,m.Ze)(this.agentIdentifier,this.featureName),void o(!1);const{Aggregate:n}=await t();this.featAggregate=new n(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),o(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,m.Ze)(this.agentIdentifier,this.featureName,!0),o(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)((()=>a()),!0):a()}#t(e,t,r){switch(e){case n.K7.sessionReplay:return(0,R.SR)(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var _=i(6630),S=i(2614);class A extends T{static featureName=_.T;constructor(e){var t;super(e,_.T),this.setupInspectionEvents(e.agentIdentifier),t=e,p(d.Fw,(function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,s.p)(d.Pl+d.Fw,[(0,c.t)()],void 0,void 0,t.ee))}),t),this.ee.on("api-send-rum",((e,t)=>(0,s.p)("send-rum",[e,t],void 0,this.featureName,this.ee))),this.importAggregator(e,(()=>i.e(891).then(i.bind(i,7550))))}setupInspectionEvents(e){const t=(t,r)=>{t&&(0,u.W)({agentIdentifier:e,timeStamp:t.timeStamp,loaded:"complete"===t.target.readyState,type:"window",name:r,data:t.target.location+""})};(0,b.sB)((e=>{t(e,"DOMContentLoaded")})),(0,b.GG)((e=>{t(e,"load")})),(0,b.Qr)((e=>{t(e,"navigate")})),this.ee.on(S.tS.UPDATE,((t,r)=>{(0,u.W)({agentIdentifier:e,type:"lifecycle",name:"session",data:r})}))}}var E=i(384);var O=i(2843),N=i(3878),P=i(782);class I extends T{static featureName=P.T;constructor(e){super(e,P.T),y.RI&&((0,O.u)((()=>(0,s.p)("docHidden",[(0,c.t)()],void 0,P.T,this.ee)),!0),(0,N.sp)("pagehide",(()=>(0,s.p)("winPagehide",[(0,c.t)()],void 0,P.T,this.ee))),this.importAggregator(e,(()=>i.e(891).then(i.bind(i,9917)))))}}class k extends T{static featureName=h.TZ;constructor(e){super(e,h.TZ),y.RI&&document.addEventListener("securitypolicyviolation",(e=>{(0,s.p)(h.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)})),this.importAggregator(e,(()=>i.e(891).then(i.bind(i,8351))))}}var j=i(6774),C=i(3304);class H{constructor(e,t,r,n,i){this.name="UncaughtError",this.message="string"==typeof e?e:(0,C.A)(e),this.sourceURL=t,this.line=r,this.column=n,this.__newrelic=i}}function L(e){return K(e)?e:new H(void 0!==e?.message?e.message:e,e?.filename||e?.sourceURL,e?.lineno||e?.line,e?.colno||e?.col,e?.__newrelic)}function D(e){const t="Unhandled Promise Rejection: ";if(!e?.reason)return;if(K(e.reason)){try{e.reason.message.startsWith(t)||(e.reason.message=t+e.reason.message)}catch(e){}return L(e.reason)}const r=L(e.reason);return(r.message||"").startsWith(t)||(r.message=t+r.message),r}function M(e){if(e.error instanceof SyntaxError&&!/:\d+$/.test(e.error.stack?.trim())){const t=new H(e.message,e.filename,e.lineno,e.colno,e.error.__newrelic);return t.name=SyntaxError.name,t}return K(e.error)?e.error:L(e)}function K(e){return e instanceof Error&&!!e.stack}function F(e,t,r,i,o=(0,c.t)()){"string"==typeof e&&(e=new Error(e)),(0,s.p)("err",[e,o,!1,t,r.runtime.isRecording,void 0,i],void 0,n.K7.jserrors,r.ee)}var W=i(3496),B=i(993),U=i(3785);function G(e,{customAttributes:t={},level:r=B.p_.INFO}={},n,i,o=(0,c.t)()){(0,U.R)(n.ee,e,t,r,i,o)}function V(e,t,r,i,o=(0,c.t)()){(0,s.p)(d.Pl+d.hG,[o,e,t,i],void 0,n.K7.genericEvents,r.ee)}function z(e){p(d.eY,(function(t){return function(e,t){const r={};let i,o;(0,l.R)(54,"newrelic.register"),e.init.api.allow_registered_children||(i=()=>(0,l.R)(55));t&&(0,W.I)(t)||(i=()=>(0,l.R)(48,t));const a={addPageAction:(n,i={})=>{d(V,[n,{...r,...i},e],t)},log:(n,i={})=>{d(G,[n,{...i,customAttributes:{...r,...i.customAttributes||{}}},e],t)},noticeError:(n,i={})=>{d(F,[n,{...r,...i},e],t)},setApplicationVersion:e=>{r["application.version"]=e},setCustomAttribute:(e,t)=>{r[e]=t},setUserId:e=>{r["enduser.id"]=e},metadata:{customAttributes:r,target:t,get connected(){return o||Promise.reject(new Error("Failed to connect"))}}};i?i():o=new Promise(((n,i)=>{try{const o=e.runtime?.entityManager;let s=!!o?.get().entityGuid,c=o?.getEntityGuidFor(t.licenseKey,t.applicationID),d=!!c;if(s&&d)t.entityGuid=c,n(a);else{const u=setTimeout((()=>i(new Error("Failed to connect - Timeout"))),15e3);function l(r){(0,W.A)(r,e)?s||=!0:t.licenseKey===r.licenseKey&&t.applicationID===r.applicationID&&(d=!0,t.entityGuid=r.entityGuid),s&&d&&(clearTimeout(u),e.ee.removeEventListener("entity-added",l),n(a))}e.ee.emit("api-send-rum",[r,t]),e.ee.on("entity-added",l)}}catch(f){i(f)}}));const d=async(t,r,a)=>{if(i)return i();const d=(0,c.t)();(0,s.p)(h.xV,["API/register/".concat(t.name,"/called")],void 0,n.K7.metrics,e.ee);try{await o;const n=e.init.api.duplicate_registered_data;(!0===n||Array.isArray(n)&&n.includes(a.entityGuid))&&t(...r,void 0,d),t(...r,a.entityGuid,d)}catch(e){(0,l.R)(50,e)}};return a}(e,t)}),e)}class Z extends T{static featureName=j.T;constructor(e){var t;super(e,j.T),t=e,p(d.o5,((e,r)=>F(e,r,t)),t),function(e){p(d.bt,(function(t){e.runtime.onerror=t}),e)}(e),function(e){let t=0;p(d.k6,(function(e,r){++t>10||(this.runtime.releaseIds[e.slice(-200)]=(""+r).slice(-200))}),e)}(e),z(e);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("internal-error",((t,r)=>{this.abortHandler&&(0,s.p)("ierr",[L(t),(0,c.t)(),!0,{},e.runtime.isRecording,r],void 0,this.featureName,this.ee)})),y.gm.addEventListener("unhandledrejection",(t=>{this.abortHandler&&(0,s.p)("err",[D(t),(0,c.t)(),!1,{unhandledPromiseRejection:1},e.runtime.isRecording],void 0,this.featureName,this.ee)}),(0,N.jT)(!1,this.removeOnAbort?.signal)),y.gm.addEventListener("error",(t=>{this.abortHandler&&(0,s.p)("err",[M(t),(0,c.t)(),!1,{},e.runtime.isRecording],void 0,this.featureName,this.ee)}),(0,N.jT)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#r,this.importAggregator(e,(()=>i.e(891).then(i.bind(i,5928))))}#r(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}var q=i(8990);let X=1;function Y(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===y.gm?0:(0,q.I)(e,"nr@id",(function(){return X++}))}function Q(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,C.A)(e).length}catch(e){return}}}var J=i(8139),ee=i(7836),te=i(3434);const re={},ne=["open","send"];function ie(e){var t=e||ee.ee;const r=function(e){return(e||ee.ee).get("xhr")}(t);if(void 0===y.gm.XMLHttpRequest)return r;if(re[r.debugId]++)return r;re[r.debugId]=1,(0,J.u)(t);var n=(0,te.YM)(r),i=y.gm.XMLHttpRequest,o=y.gm.MutationObserver,a=y.gm.Promise,s=y.gm.setInterval,c="readystatechange",d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],u=[],f=y.gm.XMLHttpRequest=function(e){const t=new i(e),o=r.context(t);try{r.emit("new-xhr",[t],o),t.addEventListener(c,(a=o,function(){var e=this;e.readyState>3&&!a.resolved&&(a.resolved=!0,r.emit("xhr-resolved",[],e)),n.inPlace(e,d,"fn-",b)}),(0,N.jT)(!1))}catch(e){(0,l.R)(15,e);try{r.emit("internal-error",[e])}catch(e){}}var a;return t};function h(e,t){n.inPlace(t,["onreadystatechange"],"fn-",b)}if(function(e,t){for(var r in e)t[r]=e[r]}(i,f),f.prototype=i.prototype,n.inPlace(f.prototype,ne,"-xhr-",b),r.on("send-xhr-start",(function(e,t){h(e,t),function(e){u.push(e),o&&(p?p.then(v):s?s(v):(g=-g,m.data=g))}(t)})),r.on("open-xhr-start",h),o){var p=a&&a.resolve();if(!s&&!a){var g=1,m=document.createTextNode(g);new o(v).observe(m,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===c||v()}));function v(){for(var e=0;e<u.length;e++)h(0,u[e]);u.length&&(u=[])}function b(e,t){return t}return r}var oe="fetch-",ae=oe+"body-",se=["arrayBuffer","blob","json","text","formData"],ce=y.gm.Request,de=y.gm.Response,ue="prototype";const le={};function fe(e){const t=function(e){return(e||ee.ee).get("fetch")}(e);if(!(ce&&de&&y.gm.fetch))return t;if(le[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=[...arguments],o={};t.emit(n+"before-start",[r],o),o[ee.P]&&o[ee.P].dt&&(e=o[ee.P].dt);var a=i.apply(this,r);return t.emit(n+"start",[r,e],a),a.then((function(e){return t.emit(n+"end",[null,e],a),e}),(function(e){throw t.emit(n+"end",[e],a),e}))})}return le[t.debugId]=1,se.forEach((e=>{r(ce[ue],e,ae),r(de[ue],e,ae)})),r(y.gm,"fetch",oe),t.on(oe+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(oe+"done",[null,r],n)}else t.emit(oe+"done",[e],n)})),t}var he=i(7485);class pe{constructor(e){this.agentRef=e}generateTracePayload(t){const r=this.agentRef.loader_config;if(!this.shouldGenerateTrace(t)||!r)return null;var n=(r.accountID||"").toString()||null,i=(r.agentID||"").toString()||null,o=(r.trustKey||"").toString()||null;if(!n||!i)return null;var a=(0,e.ZF)(),s=(0,e.el)(),c=Date.now(),d={spanId:a,traceId:s,timestamp:c};return(t.sameOrigin||this.isAllowedOrigin(t)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),d.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,n,i,o)),(t.sameOrigin&&!this.excludeNewrelicHeader()||!t.sameOrigin&&this.isAllowedOrigin(t)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(a,s,c,n,i,o)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof y.gm?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,C.A)(a))}shouldGenerateTrace(e){return this.agentRef.init?.distributed_tracing?.enabled&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1;const r=this.agentRef.init?.distributed_tracing;if(e.sameOrigin)t=!0;else if(r?.allowed_origins instanceof Array)for(var n=0;n<r.allowed_origins.length;n++){var i=(0,he.D)(r.allowed_origins[n]);if(e.hostname===i.hostname&&e.protocol===i.protocol&&e.port===i.port){t=!0;break}}return t}excludeNewrelicHeader(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!!e.cors_use_tracecontext_headers}}var ge=i(9300),me=i(7295),ve=["load","error","abort","timeout"],be=ve.length,ye=(0,E.dV)().o.REQ,Re=(0,E.dV)().o.XHR;const xe="X-NewRelic-App-Data";class we extends T{static featureName=ge.T;constructor(e){super(e,ge.T),this.dt=new pe(e),this.handler=(e,t,r,n)=>(0,s.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};y.gm?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const r={status:t.responseStatus},i={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};Te(r,t.name),this.handler("xhr",[r,i,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,n.K7.ajax)}}))}catch(e){}fe(this.ee),ie(this.ee),function(e,t,r,i){function o(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=_,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){S(t,e)}),(0,N.jT)(!1)),y.lR||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,N.jT)(!1))}function a(e){this.params={method:e[0]},Te(this,e[1]),this.metrics={}}function d(t,r){e.loader_config.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",e.loader_config.xpid);var n=i.generateTracePayload(this.parsedOrigin);if(n){var o=!1;n.newrelicHeader&&(r.setRequestHeader("newrelic",n.newrelicHeader),o=!0),n.traceContextParentHeader&&(r.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&r.setRequestHeader("tracestate",n.traceContextStateHeader),o=!0),o&&(this.dt=n)}}function u(e,r){var n=this.metrics,i=e[0],o=this;if(n&&i){var a=Q(i);a&&(n.txSize=a)}this.startTime=(0,c.t)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof o.end)&&o.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<be;s++)r.addEventListener(ve[s],this.listener,(0,N.jT)(!1))}function l(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+Y(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function p(e,t){var r=""+Y(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function g(){this.endTime=(0,c.t)()}function m(e,r){r instanceof Re&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function v(e,r){r instanceof Re&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function b(e,t,r){t instanceof Re&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,c.t)()))}function R(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,c.t)()-this.xhrCbStart,this.onload,r],r)}function x(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&y.RI&&(t=""+y.gm.location.href):e[0]&&e[0].url?t=e[0].url:y.gm?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,he.D)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=i.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,n)&&(this.dt=n);else{var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),s(o.headers,n)&&(this.dt=n),e.length>1?e[1]=o:e.push(o)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function w(e,t){this.params={},this.metrics={},this.startTime=(0,c.t)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof ye?r=i.url:y.gm?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),Te(this,r);var o=(""+(i&&i instanceof ye&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.body=n.body,this.txSize=Q(n.body)||0}function T(e,t){if(this.endTime=(0,c.t)(),this.params||(this.params={}),(0,me.iW)(this.params))return;let i;this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(i=+this.rxSize);const o={txSize:this.txSize,rxSize:i,duration:(0,c.t)()-this.startTime};r("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this,n.K7.ajax)}function _(e){const t=this.params,i=this.metrics;if(!this.ended){this.ended=!0;for(let t=0;t<be;t++)e.removeEventListener(ve[t],this.listener,!1);t.aborted||(0,me.iW)(t)||(i.duration=(0,c.t)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):S(this,e),i.cbTime=this.cbTime,r("xhr",[t,i,this.startTime,this.endTime,"xhr"],this,n.K7.ajax))}}function S(e,r){e.params.status=r.status;var i=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?Q(e.response):"text"===r||""===r||void 0===r?Q(e.responseText):void 0}(r,e.lastSize);if(i&&(e.metrics.rxSize=i),e.sameOrigin&&r.getAllResponseHeaders().indexOf(xe)>=0){var o=r.getResponseHeader(xe);o&&((0,s.p)(h.rs,["Ajax/CrossApplicationTracing/Header/Seen"],void 0,n.K7.metrics,t),e.params.cat=o.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",o),t.on("open-xhr-start",a),t.on("open-xhr-end",d),t.on("send-xhr-start",u),t.on("xhr-cb-time",l),t.on("xhr-load-added",f),t.on("xhr-load-removed",p),t.on("xhr-resolved",g),t.on("addEventListener-end",m),t.on("removeEventListener-end",v),t.on("fn-end",R),t.on("fetch-before-start",x),t.on("fetch-start",w),t.on("fn-start",b),t.on("fetch-done",T)}(e,this.ee,this.handler,this.dt),this.importAggregator(e,(()=>i.e(891).then(i.bind(i,3845))))}}function Te(e,t){var r=(0,he.D)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}const _e={},Se=["pushState","replaceState"];function Ae(e){const t=function(e){return(e||ee.ee).get("history")}(e);return!y.RI||_e[t.debugId]++||(_e[t.debugId]=1,(0,te.YM)(t).inPlace(window.history,Se,"-")),t}var Ee=i(3738);function Oe(e){p(d.BL,(function(t=Date.now()){const r=t-y.WN;r<0&&(0,l.R)(62,t),(0,s.p)(h.XG,[d.BL,{time:r}],void 0,n.K7.metrics,e.ee),e.addToTrace({name:d.BL,start:t,origin:"nr"}),(0,s.p)(d.Pl+d.hG,[r,d.BL],void 0,n.K7.genericEvents,e.ee)}),e)}const{He:Ne,bD:Pe,d3:Ie,Kp:ke,TZ:je,Lc:Ce,uP:He,Rz:Le}=Ee;class De extends T{static featureName=je;constructor(e){var t;super(e,je),t=e,p(d.U2,(function(e){if(!(e&&"object"==typeof e&&e.name&&e.start))return;const r={n:e.name,s:e.start-y.WN,e:(e.end||e.start)-y.WN,o:e.origin||"",t:"api"};r.s<0||r.e<0||r.e<r.s?(0,l.R)(61,{start:r.s,end:r.e}):(0,s.p)("bstApi",[r],void 0,n.K7.sessionTrace,t.ee)}),t),Oe(e);if(!(0,x.V)(e.init))return void this.deregisterDrain();const r=this.ee;let o;Ae(r),this.eventsEE=(0,J.u)(r),this.eventsEE.on(He,(function(e,t){this.bstStart=(0,c.t)()})),this.eventsEE.on(Ce,(function(e,t){(0,s.p)("bst",[e[0],t,this.bstStart,(0,c.t)()],void 0,n.K7.sessionTrace,r)})),r.on(Le+Ie,(function(e){this.time=(0,c.t)(),this.startPath=location.pathname+location.hash})),r.on(Le+ke,(function(e){(0,s.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,n.K7.sessionTrace,r)}));try{o=new PerformanceObserver((e=>{const t=e.getEntries();(0,s.p)(Ne,[t],void 0,n.K7.sessionTrace,r)})),o.observe({type:Pe,buffered:!0})}catch(e){}this.importAggregator(e,(()=>i.e(891).then(i.bind(i,575))),{resourceObserver:o})}}var Me=i(6344);class Ke extends T{static featureName=Me.TZ;#n;#i;constructor(e){var t;let r;super(e,Me.TZ),t=e,p(d.CH,(function(){(0,s.p)(d.CH,[],void 0,n.K7.sessionReplay,t.ee)}),t),function(e){p(d.Tb,(function(){(0,s.p)(d.Tb,[],void 0,n.K7.sessionReplay,e.ee)}),e)}(e),this.#i=e;try{r=JSON.parse(localStorage.getItem("".concat(S.H3,"_").concat(S.uh)))}catch(e){}(0,R.SR)(e.init)&&this.ee.on(Me.G4.RECORD,(()=>this.#o())),this.#a(r)?(this.#n=r?.sessionReplayMode,this.#s()):this.importAggregator(this.#i,(()=>i.e(891).then(i.bind(i,6167)))),this.ee.on("err",(e=>{this.#i.runtime.isRecording&&(this.errorNoticed=!0,(0,s.p)(Me.G4.ERROR_DURING_REPLAY,[e],void 0,this.featureName,this.ee))}))}#a(e){return e&&(e.sessionReplayMode===S.g.FULL||e.sessionReplayMode===S.g.ERROR)||(0,R.Aw)(this.#i.init)}#c=!1;async#s(e){if(!this.#c){this.#c=!0;try{const{Recorder:t}=await Promise.all([i.e(891),i.e(222)]).then(i.bind(i,8589));this.recorder??=new t({mode:this.#n,agentIdentifier:this.agentIdentifier,trigger:e,ee:this.ee,agentRef:this.#i}),this.recorder.startRecording(),this.abortHandler=this.recorder.stopRecording}catch(e){this.parent.ee.emit("internal-error",[e])}this.importAggregator(this.#i,(()=>i.e(891).then(i.bind(i,6167))),{recorder:this.recorder,errorNoticed:this.errorNoticed})}}#o(){this.featAggregate?this.featAggregate.mode!==S.g.FULL&&this.featAggregate.initializeRecording(S.g.FULL,!0):(this.#n=S.g.FULL,this.#s(Me.Qb.API),this.recorder&&this.recorder.parent.mode!==S.g.FULL&&(this.recorder.parent.mode=S.g.FULL,this.recorder.stopRecording(),this.recorder.startRecording(),this.abortHandler=this.recorder.stopRecording))}}var Fe=i(3333);class We extends T{static featureName=Fe.TZ;constructor(e){super(e,Fe.TZ);const t=[e.init.page_action.enabled,e.init.performance.capture_marks,e.init.performance.capture_measures,e.init.user_actions.enabled,e.init.performance.resources.enabled];var r;if(r=e,p(d.hG,((e,t)=>V(e,t,r)),r),function(e){p(d.fF,(function(){(0,s.p)(d.Pl+d.fF,[(0,c.t)(),...arguments],void 0,n.K7.genericEvents,e.ee)}),e)}(e),Oe(e),z(e),function(e){p(d.V1,(function(t,r){const i=(0,c.t)(),{start:o,end:a,customAttributes:u}=r||{},f={customAttributes:u||{}};if("object"!=typeof f.customAttributes||"string"!=typeof t||0===t.length)return void(0,l.R)(57);const h=(e,t)=>null==e?t:"number"==typeof e?e:e instanceof PerformanceMark?e.startTime:Number.NaN;if(f.start=h(o,0),f.end=h(a,i),Number.isNaN(f.start)||Number.isNaN(f.end))(0,l.R)(57);else{if(f.duration=f.end-f.start,!(f.duration<0))return(0,s.p)(d.Pl+d.V1,[f,t],void 0,n.K7.genericEvents,e.ee),f;(0,l.R)(58)}}),e)}(e),y.RI&&(e.init.user_actions.enabled&&(Fe.Zp.forEach((e=>(0,N.sp)(e,(e=>(0,s.p)("ua",[e],void 0,this.featureName,this.ee)),!0))),Fe.qN.forEach((e=>{const t=(0,w.s)((e=>{(0,s.p)("ua",[e],void 0,this.featureName,this.ee)}),500,{leading:!0});(0,N.sp)(e,t)}))),e.init.performance.resources.enabled&&y.gm.PerformanceObserver?.supportedEntryTypes.includes("resource"))){new PerformanceObserver((e=>{e.getEntries().forEach((e=>{(0,s.p)("browserPerformance.resource",[e],void 0,this.featureName,this.ee)}))})).observe({type:"resource",buffered:!0})}t.some((e=>e))?this.importAggregator(e,(()=>i.e(891).then(i.bind(i,8019)))):this.deregisterDrain()}}var Be=i(2646);const Ue=new Map;function Ge(e,t,r,n){if("object"!=typeof t||!t||"string"!=typeof r||!r||"function"!=typeof t[r])return(0,l.R)(29);const i=function(e){return(e||ee.ee).get("logger")}(e),o=(0,te.YM)(i),a=new Be.y(ee.P);a.level=n.level,a.customAttributes=n.customAttributes;const s=t[r]?.[te.Jt]||t[r];return Ue.set(s,a),o.inPlace(t,[r],"wrap-logger-",(()=>Ue.get(s))),i}class Ve extends T{static featureName=B.TZ;constructor(e){var t;super(e,B.TZ),t=e,p(d.$9,((e,r)=>G(e,r,t)),t),function(e){p(d.Wb,((t,r,{customAttributes:n={},level:i=B.p_.INFO}={})=>{Ge(e.ee,t,r,{customAttributes:n,level:i})}),e)}(e),z(e);const r=this.ee;Ge(r,y.gm.console,"log",{level:"info"}),Ge(r,y.gm.console,"error",{level:"error"}),Ge(r,y.gm.console,"warn",{level:"warn"}),Ge(r,y.gm.console,"info",{level:"info"}),Ge(r,y.gm.console,"debug",{level:"debug"}),Ge(r,y.gm.console,"trace",{level:"trace"}),this.ee.on("wrap-logger-end",(function([e]){const{level:t,customAttributes:n}=this;(0,U.R)(r,e,n,t)})),this.importAggregator(e,(()=>i.e(891).then(i.bind(i,5288))))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,E.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(A),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===n.K7.softNav)),(0,a.j)(this,e,e.loaderType||"agent"),t=this,p(d.cD,(function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return g(t,e,r,d.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)}),t),function(e){p(d.Dl,(function(t){if("string"==typeof t||null===t)return g(e,"enduser.id",t,d.Dl,!0);(0,l.R)(41,typeof t)}),e)}(this),function(e){p(d.nb,(function(t){if("string"==typeof t||null===t)return g(e,"application.version",t,d.nb,!1);(0,l.R)(42,typeof t)}),e)}(this),function(e){p(d.d3,(function(){e.ee.emit("manual-start-all")}),e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return o.forEach((r=>{t[r]=!!e[r]?.enabled})),t}(this.init),t=[...this.desiredFeatures];t.sort(((e,t)=>n.P3[e.featureName]-n.P3[t.featureName])),t.forEach((t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter((e=>!(e in this.features)));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)}))}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,E.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[A,I,De,Ke,we,k,Z,We,Ve],loaderType:"pro"})})()})();</script>
+	<meta http-equiv="ClearType" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+			<meta name="description" content="BU MET cybercriminologist Dr. Kyung-shick Choi ran the 1st White Hat Conference, where police &amp; partners shared perspectives as a global community. Learn more." />
+	
+			<meta name="copyright" content="&copy; 2025 Boston University" />
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://www.bu.edu/met/xmlrpc.php" />
+	<link rel="apple-touch-icon" href="https://www.bu.edu/met/wp-content/themes/responsive-framework-2-x/icons/apple-touch-icon-precomposed.png"/>
+
+	
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || []
+</script>
+<!-- End Google Tag Manager for WordPress by DuracellTomi --><link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.bu.edu\/met\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	        <style type="text/css">
+            #wpadminbar #wp-admin-bar-my-networks > .ab-item:first-child:before {
+                content: "\f325";
+                top: 3px;
+            }
+        </style>
+        <link rel='stylesheet' id='bu-alert-css-css'  href='https://www.bu.edu/met/wp-content/mu-plugins/bu-alert/alert.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.bu.edu/met/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bu-navigation-block-frontend-style-css'  href='https://www.bu.edu/met/wp-content/mu-plugins/bu-navigation/src/block-frontend.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bu-banners-css'  href='https://www.bu.edu/met/wp-content/plugins/bu-banners/css/bu-banners.min.css?ver=1.3.13' type='text/css' media='all' />
+<!--[if gt IE 8]><!-->
+<link rel='stylesheet' id='responsive-framework-css'  href='https://www.bu.edu/met/wp-content/themes/r-met/style.min.css?ver=0.3.8' type='text/css' media='all' />
+<![endif]-->
+<!--[if (lt IE 9) & (!IEMobile 7)]>
+<link rel='stylesheet' id='responsive-framework-ie-css'  href='https://www.bu.edu/met/wp-content/themes/r-met/ie.min.css?ver=0.3.8' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='bu-branding-fonts-css'  href='https://www.bu.edu/met/wp-content/mu-plugins/bu-branding/assets/css/fonts.css?ver=0.3.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.bu.edu/met/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-content/plugins/gtm4wp/js/gtm4wp-form-move-tracker.js?ver=1.4'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-content/plugins/bu-front-end-library/js/collapsible.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-content/themes/responsive-framework-2-x/js/vendor/modernizr.js?ver=3.7.1'></script>
+<link rel='https://api.w.org/' href='https://www.bu.edu/met/wp-json/' />
+<link rel="canonical" href="https://www.bu.edu/met/programs/criminal-justice/international-white-hat-cybercriminology-conference/" />
+<link rel='shortlink' href='https://www.bu.edu/met/?p=74817' />
+<link rel="alternate" type="application/json+oembed" href="https://www.bu.edu/met/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bu.edu%2Fmet%2Fprograms%2Fcriminal-justice%2Finternational-white-hat-cybercriminology-conference%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.bu.edu/met/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bu.edu%2Fmet%2Fprograms%2Fcriminal-justice%2Finternational-white-hat-cybercriminology-conference%2F&#038;format=xml" />
+<meta name='last-updated' content='2023-01-13T09:33:53-04:00' />
+
+		<script type="text/javascript">
+			//<![CDATA[
+		function bu_ga_track_pageview(e){var a,t=bu_ga_get_trackers();for(e||(e=void 0),_gaq.push(["_trackPageview",e]),a=0;a<t.length;a++)_gaq.push([t[a]+"._trackPageview",e])}function bu_ga_track_event(e){("undefined"==typeof e.value||null===e.value||isNaN(e.value))&&(e.value=0),"undefined"!=typeof e.delay&&null!==e.delay||(e.delay=0),"undefined"!=typeof e.noninteract&&null!==e.noninteract||(e.noninteract=!0),e.value=parseFloat(e.value);var a,t=bu_ga_get_trackers();for(_gaq.push(["_trackEvent",e.category,e.action,e.label,e.value,e.noninteract]),a=0;a<t.length;a++)_gaq.push([t[a]+"._trackEvent",e.category,e.action,e.label,e.value,e.noninteract]);e.delay&&setTimeout(function(){return!0},100)}function bu_ga_track_social(e){"undefined"!=typeof e.target&&"null"!=typeof e.target||(e.target=void 0),"undefined"!=typeof e.path&&"null"!=typeof e.path||(e.path=void 0);var a,t=bu_ga_get_trackers();for(_gaq.push(["_trackSocial",e.network,e.action,e.target,e.path]),a=0;a<t.length;a++)_gaq.push([t[a]+"._trackSocial",e.network,e.action,e.target,e.path])}function bu_ga_get_trackers(){return"undefined"==typeof buGa||"undefined"==typeof buGa.trackerNames?[]:buGa.trackerNames}function bu_ga_get_tracker(e){if("undefined"==typeof buGa||"undefined"==typeof buGa.trackerIds)return null;if("undefined"==typeof e||"null"==typeof e)return"";var a=buGa.trackerIds;for(var t in a)if(a[t]===e)return"a"===t?"":t;return null}var buGa = {"trackerNames":[],"trackerIds":{"a":"G-0Z1EBE5RV7"}};
+
+			var _gaq = _gaq || [];
+
+									/* begin other trackers */
+			
+			
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+			//]]>
+		</script>
+
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Z1EBE5RV7"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0Z1EBE5RV7');
+</script>
+
+<!-- Google Tag Manager for WordPress by DuracellTomi -->
+<script data-cfasync="false" type="text/javascript">
+	dataLayer.push({"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"eywong"});
+</script>		<style type="text/css" id="wp-custom-css">
+			/* CODE BELOW HAS BEEN MIGRATED INTO WORDPRESS THEME as of Friday, September 11th, 2020 at 11:30am. Keeping As Backup. DO NOT ADD Additional styles in this area unless permitted by BU Marketing & Communiations, Interactive Design. */
+
+/*
+.page-template-calendar .content-area h2 {
+    font-size: 21px;
+}
+
+.calendar-list-topic .calendar-list-range {
+    font-size: 16px;
+}
+
+.calendar-list-event-date:first-of-type {
+    margin-top: 3em;
+}
+
+.calendar-list-event-date {
+    font-weight: bold;
+}
+
+.page-template-calendar .content-container {
+    background-color: #fff;
+}
+
+.page-template-calendar .content {
+    background-color: #6ed6e2;
+}
+
+.page-template-calendar .calendar-list-events {
+    padding: 0;
+}
+
+.page-template-calendar .content-area .calendar-list-events li {
+    padding: 10px 10px 30px 0;
+    box-shadow: none;
+    border-bottom: 1px solid #eeefef;
+}
+
+.page-template-calendar .calendar-list-topic::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(-45deg, #D3DD7B 0%,#5DDDEC 100%);
+    margin-top: 1em;
+}
+
+.calendar-list-event-link, .calendar-list-event-link:visited {
+    font-size: 14px;
+    font-weight: normal;
+	  text-decoration: underline;
+	  margin-left: 6.5em;
+}
+
+.calendar-list-event-time {
+	font-size: 13px;
+}
+
+.page-template-calendar .content-area {
+    border-right: 2px solid #eeefef;
+    padding-right: 55px;
+}
+.widget-calendar-picker td {
+    padding: .75em;
+    font-size: 14px;
+}
+
+.page-template-calendar .widget-title::before {
+    content: "";
+    display: block;
+    border-top: 6px solid #6ed6e2;
+    padding-bottom: 15px;
+    max-width: 30px;
+}
+
+.page-template-calendar table.calendar {
+    margin-top: 42px;
+}
+
+.widget_bu_pages ul ul ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+*/		</style>
+					<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://www.bu.edu/met/files/custom.min.css" />
+			</head>
+
+<body id="top" class="page-template page page-id-74817 page-child parent-pageid-109 has-bu-branding has-bu-masterplate f1 l-mega-nav sidebar-location-right page-template-no-sidebars">
+	
+		<header class="masthead" role="banner">
+		<div class="masthead-container">
+				<a class="skip-link" href="#main">Skip to Main Content</a>
+			
+<div class="brand">
+		
+
+			<a class="brand-logotype has-title brand-container" href="https://www.bu.edu/met/" rel="home">
+	
+
+	
+					<span class="brand-part-logotype">Boston University</span>
+		
+		
+		
+	
+	<span class="sitename brand-part-sitename">Metropolitan College</span>
+
+</a>
+			<p class="site-description brand-site-description"></p>
+		<nav class="short-nav" role="navigation"><ul id="short-nav-menu" class="short-nav-menu"><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-38"><a href="https://www.bu.edu/met/programs/">Degrees &#038; Certificates</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://www.bu.edu/met/admissions/">Admissions</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://www.bu.edu/met/faculty-research/">Faculty &#038; Research</a></li>
+<li id="menu-item-80953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80953"><a href="https://www.bu.edu/met/admissions/">Apply Now</a></li>
+</ul><button type="button" class="nav-toggle js-nav-toggle mega-nav-toggle" aria-label="Full Menu" aria-expanded="true"><div class="nav-toggle-label-closed">Full Menu</div><div class="nav-toggle-label-open">Close Menu</div></button></nav>	<div class="plate">
+	<a href="https://www.bu.edu" class="brand-masterplate">Boston University</a>
+</div>
+</div>
+
+<nav class="primary-nav" role="navigation">
+		<form role="search" method="get" action="https://search.bu.edu/" id="quicksearch"><fieldset><legend class="screen-reader-text"><span>Search</span></legend><input type="hidden" name="site" value="https://www.bu.edu/met" ><input type="hidden" name="context" value="site"/>
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input name="q" type="text" aria-label="Search" class="search-field" id="q" placeholder="Search site&hellip;" title="Search for:" />
+				</label><input class="button search-submit" type="submit" name="do_search" value="Search" /></fieldset></form>	<ul id="primary-nav-menu" class="primary-nav-menu "><li class="page_item page-item-21 current_page_ancestor">
+<a class="level_1 active_section" href="https://www.bu.edu/met/programs/" title="Navigate to: Degrees &amp; Certificates">Degrees &amp; Certificates</a>
+ 
+<ul>
+<li class="page_item page-item-93">
+<a class="level_2" href="https://www.bu.edu/met/programs/actuarial-science/" title="Navigate to: Actuarial Science">Actuarial Science</a>
+ </li>
+<li class="page_item page-item-95">
+<a class="level_2" href="https://www.bu.edu/met/programs/analytics-data-business/" title="Navigate to: Analytics, Data &amp; Business">Analytics, Data &amp; Business</a>
+ </li>
+<li class="page_item page-item-97">
+<a class="level_2" href="https://www.bu.edu/met/programs/arts-administration/" title="Navigate to: Arts Administration">Arts Administration</a>
+ </li>
+<li class="page_item page-item-99">
+<a class="level_2" href="https://www.bu.edu/met/programs/bachelors-degree-completion/" title="Navigate to: Bachelor’s Degree Completion">Bachelor’s Degree Completion</a>
+ </li>
+<li class="page_item page-item-101">
+<a class="level_2" href="https://www.bu.edu/met/programs/biomedical-healthcare/" title="Navigate to: Biomedical &amp; Healthcare">Biomedical &amp; Healthcare</a>
+ </li>
+<li class="page_item page-item-103">
+<a class="level_2" href="https://www.bu.edu/met/programs/business-management/" title="Navigate to: Business &amp; Management">Business &amp; Management</a>
+ </li>
+<li class="page_item page-item-137">
+<a class="level_2" href="https://www.bu.edu/met/programs/urban-affairs-city-planning/" title="Navigate to: City Planning &amp; Urban Affairs">City Planning &amp; Urban Affairs</a>
+ </li>
+<li class="page_item page-item-105">
+<a class="level_2" href="https://www.bu.edu/met/programs/computer-information-systems/" title="Navigate to: Computer Information Systems">Computer Information Systems</a>
+ </li>
+<li class="page_item page-item-107">
+<a class="level_2" href="https://www.bu.edu/met/programs/computer-science-it/" title="Navigate to: Computer Science &amp; IT">Computer Science &amp; IT</a>
+ </li>
+<li class="page_item page-item-109 current_page_ancestor current_page_parent">
+<a class="level_2 active_section" href="https://www.bu.edu/met/programs/criminal-justice/" title="Navigate to: Criminal Justice">Criminal Justice</a>
+ </li>
+<li class="page_item page-item-119">
+<a class="level_2" href="https://www.bu.edu/met/programs/cybersecurity/" title="Navigate to: Cybersecurity">Cybersecurity</a>
+ </li>
+<li class="page_item page-item-121">
+<a class="level_2" href="https://www.bu.edu/met/programs/finance/" title="Navigate to: Finance">Finance</a>
+ </li>
+<li class="page_item page-item-123">
+<a class="level_2" href="https://www.bu.edu/met/programs/gastronomy-food-studies/" title="Navigate to: Gastronomy &amp; Food Studies">Gastronomy &amp; Food Studies</a>
+ </li>
+<li class="page_item page-item-125">
+<a class="level_2" href="https://www.bu.edu/met/programs/linguistics/" title="Navigate to: Linguistics">Linguistics</a>
+ </li>
+<li class="page_item page-item-127">
+<a class="level_2" href="https://www.bu.edu/met/programs/marketing-communications/" title="Navigate to: Marketing &amp; Communications">Marketing &amp; Communications</a>
+ </li>
+<li class="page_item page-item-129">
+<a class="level_2" href="https://www.bu.edu/met/programs/project-management/" title="Navigate to: Project Management">Project Management</a>
+ </li>
+<li class="page_item page-item-131">
+<a class="level_2" href="https://www.bu.edu/met/programs/risk-management/" title="Navigate to: Risk Management">Risk Management</a>
+ </li>
+<li class="page_item page-item-133">
+<a class="level_2" href="https://www.bu.edu/met/programs/software-development/" title="Navigate to: Software Development">Software Development</a>
+ </li>
+<li class="page_item page-item-135">
+<a class="level_2" href="https://www.bu.edu/met/programs/supply-chain-management/" title="Navigate to: Supply Chain Management">Supply Chain Management</a>
+ </li>
+
+</ul>
+</li>
+<li class="page_item page-item-23">
+<a class="level_1" href="https://www.bu.edu/met/admissions/" title="Navigate to: Admissions">Admissions</a>
+ 
+<ul>
+<li class="page_item page-item-80274">
+<a class="level_2" href="https://www.bu.edu/met/admissions/apply-now-graduate/" title="Navigate to: Apply Now: Graduate">Apply Now: Graduate</a>
+ </li>
+<li class="page_item page-item-80277">
+<a class="level_2" href="https://www.bu.edu/met/admissions/apply-now-undergraduate/" title="Navigate to: Apply Now: Undergraduate">Apply Now: Undergraduate</a>
+ </li>
+<li class="page_item page-item-87">
+<a class="level_2" href="https://www.bu.edu/met/admissions/international-students/" title="Navigate to: International Students">International Students</a>
+ </li>
+<li class="page_item page-item-85">
+<a class="level_2" href="https://www.bu.edu/met/admissions/tuition-and-fees/" title="Navigate to: Tuition &amp; Fees">Tuition &amp; Fees</a>
+ </li>
+<li class="page_item page-item-78216">
+<a class="level_2" href="https://www.bu.edu/met/admissions/financial-aid/" title="Navigate to: Financial Aid">Financial Aid</a>
+ </li>
+<li class="page_item page-item-71098">
+<a class="level_2" href="https://www.bu.edu/met/admissions/admitted-students/" title="Navigate to: Admitted Students">Admitted Students</a>
+ </li>
+<li class="page_item page-item-84739">
+<a class="level_2" href="https://www.bu.edu/met/admissions/academic-calendars/" title="Navigate to: Academic Calendars">Academic Calendars</a>
+ </li>
+<li class="page_item page-item-1530">
+<a class="level_2" href="https://www.bu.edu/met/admissions/orientation/" title="Navigate to: Orientation">Orientation</a>
+ </li>
+<li class="page_item page-item-89">
+<a class="level_2" href="https://www.bu.edu/met/admissions/course-registration/" title="Navigate to: Course Registration">Course Registration</a>
+ </li>
+
+</ul>
+</li>
+<li class="page_item page-item-25">
+<a class="level_1" href="https://www.bu.edu/met/about/" title="Navigate to: About">About</a>
+ 
+<ul>
+<li class="page_item page-item-75">
+<a class="level_2" href="https://www.bu.edu/met/about/deans-welcome/" title="Navigate to: Dean’s Welcome">Dean’s Welcome</a>
+ </li>
+<li class="page_item page-item-75287">
+<a class="level_2" href="https://www.bu.edu/met/about/strategic-plan/" title="Navigate to: 2030 Strategic Plan">2030 Strategic Plan</a>
+ </li>
+<li class="page_item page-item-73082">
+<a class="level_2" href="https://www.bu.edu/met/about/deans-advisory-board/" title="Navigate to: Dean’s Advisory Board">Dean’s Advisory Board</a>
+ </li>
+<li class="page_item page-item-77">
+<a class="level_2" href="https://www.bu.edu/met/about/diversity-inclusion/" title="Navigate to: Diversity &amp; Inclusion">Diversity &amp; Inclusion</a>
+ </li>
+<li class="page_item page-item-79">
+<a class="level_2" href="https://www.bu.edu/met/about/directory/" title="Navigate to: Directory">Directory</a>
+ </li>
+
+</ul>
+</li>
+<li class="page_item page-item-56">
+<a class="level_1" href="https://www.bu.edu/met/faculty-research/" title="Navigate to: Faculty &amp; Research">Faculty &amp; Research</a>
+ 
+<ul>
+<li class="page_item page-item-62">
+<a class="level_2" href="https://www.bu.edu/met/faculty-research/faculty/" title="Navigate to: Faculty">Faculty</a>
+ </li>
+<li class="page_item page-item-74245">
+<a class="level_2" href="https://www.bu.edu/met/faculty-research/podcast/" title="Navigate to: Podcast: MET Makes Conversation">Podcast: MET Makes Conversation</a>
+ </li>
+
+</ul>
+</li>
+
+</ul>
+	<nav class="utility-nav" role="navigation"><ul id="utility-nav-menu" class="utility-nav-menu"><li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="https://www.bu.edu/met/courses/">Courses</a></li>
+<li id="menu-item-2237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2237"><a href="https://www.bu.edu/met/careers/">Careers</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://www.bu.edu/met/news/">News</a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="https://www.bu.edu/met/events/">Events</a></li>
+<li id="menu-item-90989" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90989"><a href="https://www.bu.edu/met/contact/">Contact Us</a></li>
+</ul></nav><nav class="resources-nav" role="navigation">
+	<span class="resources-title">Resources for:</span>
+	<ul id="resource-nav-menu" class="resource-nav-menu"><li id="menu-item-90978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90978"><a href="https://www.bu.edu/met/current-students/">Current Students</a></li>
+<li id="menu-item-90979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90979"><a href="https://www.bu.edu/met/faculty-staff/">Faculty &#038; Staff</a></li>
+<li id="menu-item-90980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90980"><a href="https://www.bu.edu/met/alumni/">Alumni &#038; Friends</a></li>
+</ul></nav>
+		<div class="auxiliary-nav-wrapper">
+	<nav class="auxiliary-nav" role="navigation">
+		<ul id="auxiliary-nav-menu" class="auxiliary-nav-menu"><li id="menu-item-90974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90974"><a href="https://www.bu.edu/met/admissions/apply-now-graduate/">Apply Now:  Graduate</a></li>
+<li id="menu-item-90975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90975"><a href="https://www.bu.edu/met/admissions/apply-now-undergraduate/">Apply Now:  Undergraduate</a></li>
+<li id="menu-item-90976" class="button-contact menu-item menu-item-type-custom menu-item-object-custom menu-item-90976"><a href="https://met.bu.edu/inquiryform">Request Information</a></li>
+<li id="menu-item-90977" class="button-contact menu-item menu-item-type-custom menu-item-object-custom menu-item-90977"><a href="https://www.bu.edu/met/admissions/">Connect:  Admissions</a></li>
+</ul>	</nav>
+</div>
+</nav>
+		</div>
+	</header>
+	
+		<div class="wrapper">
+		<div class="bu-banner bu-banner-full-center bu-banner-color-light">
+			<div class="bu-banner-media">
+			<picture class="bu-banner-img"><source media="(max-width: 499px)" srcset="/met/files/2021/12/white-hat-conf-news-2021-hero-500x667.jpg"><source media="(max-width: 767px)" srcset="/met/files/2021/12/white-hat-conf-news-2021-hero-768x788.jpg"><source media="(max-width: 991px)" srcset="/met/files/2021/12/white-hat-conf-news-2021-hero-992x413.jpg"><source media="(max-width: 1199px)" srcset="/met/files/2021/12/white-hat-conf-news-2021-hero-1200x500.jpg"><source media="(max-width: 1499px)" srcset="/met/files/2021/12/white-hat-conf-news-2021-hero-1500x624.jpg"><source media="(min-width: 1500px)" srcset="/met/files/2021/12/white-hat-conf-news-2021-hero-1920x624.jpg"><img width="1200" height="500" src="/met/files/2021/12/white-hat-conf-news-2021-hero-1200x500.jpg" class="bu-banner-img" alt="" /></picture>					</div>
+	
+			<div class="bu-banner-content u-padding">
+			<div class="bu-banner-valign">
+				<h1 class="page-title bu-banner-title">1,400 ‘White Hat’ Hackers Team Up in International Cybercriminology Conference</h1>				
+							</div>
+		</div>
+	</div>
+		<main id="main" role="main" class="content">
+			
+						<div class="content-container">
+				
+	
+		
+		<article id="post-74817" class="content-area post-74817 page type-page status-publish has-post-thumbnail hentry">
+
+			
+			<div class="container" style="text-align: left;">
+<div class="jump-links" style="padding-top: 0; margin-bottom: 50px;"><a href="/met/programs/" class="button back small">Back to Programs</a><a href="https://www.bu.edu/met/programs/criminal-justice/" class="button back small">Criminal Justice</a></div>
+<p>Before it became a coordinated worldwide effort to help the criminal justice world develop the digital forensics know-how needed to prevent, investigate, and thwart cybercrime, the International White Hat Conference began with a question—one <a href="https://www.bu.edu/met/profile/kyung-shick-choi/">Dr. Kyung-shick Choi</a>, director of <a href="https://www.bu.edu/met/programs/cybersecurity/">Cybercrime &#038; Cybersecurity programs</a> at Boston University Metropolitan College (MET), had been asking himself for years.</p>
+<p>“Why, as the good guys, are we continuously reluctant to share our knowledge?”</p>
+<p>With global losses from cybercrime inching near $1 trillion in 2020, according to a <a href="https://www.washingtonpost.com/politics/2020/12/07/cybersecurity-202-global-losses-cybercrime-skyrocketed-nearly-1-trillion-2020/" target="_blank" rel="noopener noreferrer">McAfee report</a>, the public need for successful partnerships between private enterprise and law enforcement has never been greater. Whether due to smartphones or insecure IP protocols, rises in wireless use, or cloud data storage, the world’s embrace of the cashless economy and growing reliance on web-based commerce has brought with it increased weaknesses and rises in the risk of being hacked—for both organizations and individuals.</p>
+<p>So why, Dr. Choi wondered, was there so little precedent for collaboration between agencies at federal, local, and international levels to target cybercrime? “Yet the ‘bad guys,’” or so-called <i>black</i> hats, he noted, “are constantly communicating and sharing their wealth of knowledge.”</p>
+<p>In 2019, the renowned cybercriminologist answered matters for himself when he organized the first International White Hat Conference in Bogota, Colombia, where the Colombian National Police and partners from the private sector came together to share government, private, and academic perspectives as a global community. By taking on the challenge of writing the rules to cybercrime investigation and training, and promoting it worldwide, the event served to bring disruptive change to cybercrime and explore what global measures could bring about effective criminal justice policies and preventive measures.</p>
+<p>Presenters shared practical knowledge regarding cybercrime profiling, early cybersecurity education, ethics, hacking, internet fraud, darknet investigation, cyber-incident response, and the need for AI tracking devices to monitor suspicious online activity. It was a start.</p>
+<ul class="learnMore">
+<li><strong><a href="https://www.bu.edu/met/programs/criminal-justice/career-outlook/">CRIMINAL JUSTICE CAREERS: Find out what professional opportunities await MET CJ graduates</a></strong></li>
+</ul>
+<p>But the need for stronger and more coordinated defenses has continued to grow. And despite heightened concern for the role technology plays in online victimization, many law enforcement agencies remain understaffed and under-resourced against the developing threats. And so it was that the third International White Hat Conference was held June 1–2, 2021, this time at Boston University Metropolitan College, sponsored by a grant from the US Department of Justice&#8217;s Bureau of Justice Assistance and in collaboration with Utica College.</p>
+<p>“Unfortunately, there is a persistent gap between the limited supply and high demand for cybersecurity and cybercrime expertise,” Metropolitan College Dean <a href="https://www.bu.edu/met/profile/tanya-zlateva/">Tanya Zlateva</a> told the audience. As director of security programs at MET, it’s a subject Dr. Zlateva knows well—she was instrumental in developing the information security curriculum that led to BU’s designation as a Center for Academic Excellence in Cyber Defense and Research by the National Security Agency and Department of Homeland Security.</p>
+<p>With instances of cybercrime ranging from ransomware to cyberterrorism, security breaches, identity theft, online drug-trafficking, cyberbullying, and others continually on the rise, the conference’s theme was, “The Future of Cybercrime and Its Challenges: Innovative Solutions Against Cybercrime.” Experts from roles across government and private industry shared their key knowledge to combatting the evolving issues, delving into urgent matters like the relationship between private enterprise and government oversight and penalty as it relates to the field.</p>
+<p>In 2020, work-from-home became a common experience—but there were hidden drawbacks to taking so much business off-site. “The one crime category that has skyrocketed across the world is cybercrime,” Dean Zlateva explained. To meet the field’s global need for training in both cybercriminal behavior and information technologies demands dedication and commitment. “Staying ahead in today&#8217;s fast-changing economy requires not only persistence and hard work, but also continuous learning,” she said.</p>
+<ul class="learnMore">
+<li><a href="https://www.bu.edu/met/programs/cybersecurity/">Learn more about Cybersecurity at BU MET</a></li>
+</ul>
+<p>Hosted by BU Metropolitan College’s Office of the Dean and <a href="https://www.bu.edu/met/programs/criminal-justice/">programs in criminal justice</a>, along with the <a href="https://centercicboston.org/" target="_blank" rel="noopener noreferrer">Center for Cybercrime Investigation &#038; Cybersecurity</a>, the conference saw more than 1,400 virtual attendees from across the globe join the effort to bring an ethos of ethical hacking to combatting the modern scourge of online crime. The conference drew guest speakers and cyber specialists from a total of 15 countries—Argentina, Bolivia, Cambodia, Canada, Colombia, Egypt, France, Hungary, Mexico, Peru, Singapore, South Korea, Spain, Switzerland, and the US—all of whom were dedicated to connecting higher education resources with the real-world cybersecurity, computer forensics, and digital evidence needs of federal, local, and state law enforcement agencies like INTERPOL, Europol, the US Federal Bureau of Investigation, and the Department Homeland Security; all of whom were in attendance.</p>
+<p>The nearly $1 million federal grant awarded by the Bureau of Justice Assistance to BU MET comes in support of the Student Computer Forensics and Digital Evidence Educational Opportunities Program—an endeavor to enhance current capacities of law enforcement agencies in the areas of computer forensics and digital evidence, with an ultimate aim of reduced overall instances of cybercrime. In partnership with Utica College, the event was the realization of years of research gathering input from federal as well as local and state law enforcement agencies to improve academic approaches to better serve agency needs. As these improvements make their way to agencies and departments, the field will see positive growth in cybercrime investigations and successful prosecutions.</p>
+<p>The goal of this year&#8217;s conference was to identify the important drivers and disruptors of change in cybercrime in order to address the importance of technology-related issues. As each day brings new complications to people’s interactions with novel social systems, cyber-physical infrastructure, and evolving virtual technologies, the probability of falling victim to these new types of cybercrime is inexorable—and it’s happening everywhere. “Over the last few years, the development of technology and information has dramatically increased within nations located all around the world,” Choi said. This in turn has had a massive influence on the issue of cybercrime that society must face daily.</p>
+<p style="max-width: 600px; margin: 0 auto 1.5em; text-align: center;"><img src="https://mcusercontent.com/6b416b69e96d6edb51774d2e7/images/4e982e06-2d67-62bb-b843-37384912b258.jpg" class="aligncenter" style="width: 100%; border: 2px solid #138387;" alt="Dr. Choi addresses the 2021 White Hat Conference audience." /><span class="image-caption">Dr. Choi addresses the 2021 White Hat Conference audience.</span></p>
+<p>“Science fiction writer William Gibson states that the future is already here, it&#8217;s just not evenly distributed,” Dr. Choi told the gathered conference. “Perhaps this means that it is important to explore all current and new technology to gain better understanding of the nature of cybercrime issues so that we can eventually scientifically predict those cybercrime phenomena.”</p>
+<p>According to Dr. Choi, there has never been a greater need for expertise, contribution, and commitment to the field of cybercrime and cybersecurity. “I truly believe education is the most empowering force in the world and education can make a difference,” he said. “Not only should future research and development within the field be reactive, but it should also be proactive. When it comes to investigating, predicting, as well as examining both the origin and effects of cybercrime, [it requires] utilizing intelligence technologies along with worldwide collaboration.”</p>
+<h2>View from the Forefront</h2>
+<p>Alexis Wales, associate director of the Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (CISA), didn’t mince words. “I proudly lead a team of cyber threat hunters,” she told the audience.</p>
+<p style="max-width: 600px; margin: 0 auto 1.5em; text-align: center;"><img src="/met/files/2022/01/Alexis-Wales.jpg" class="aligncenter" style="width: 100%; border: 2px solid #138387;" alt="Alexis Wales, associate director of the Department of Homeland Security, gives a keynote address." /><span class="image-caption">Alexis Wales, associate director of the Department of Homeland Security, gives a keynote address.</span></p>
+<p>Wales heads the CISA, a new bureau born of 2018 Congressional legislation with a physical and cyber infrastructure security directive. “CISA leads our defensive operations in the fight against nation state and criminal activity within the Homeland Security cyber domain,” she said. “We are a very young agency inside of a very young department.”</p>
+<ul class="learnMore">
+<li><a href="https://www.bu.edu/met/degrees-certificates/ms-criminal-justice-cybercrime-investigation-cybersecurity/">Learn more about the MS in Criminal Justice, Cybercrime Investigation &#038; Cybersecurity Concentration at BU MET</a></li>
+</ul>
+<p>CISA agents perform threat analysis, detect and hunt for malicious cyber activity, and support mitigation and response efforts. “We are the only federal agency whose sole purpose is to help public and private sector stakeholders strengthen their security and enhance their resilience—to enable others through the provisioning of tools, education, and advice to fight back against the bad guys,” she explained.</p>
+<p>Taking on challenges like ensuring election security, CISA advances steps to reduce risks for critical infrastructure partners before, during, and after cyber events and incidents. For Wales, the is all about anticipation and prevention. “[We focus] on driving down risk to our nation&#8217;s most systemically important critical infrastructure,” she said. “You cannot manage what you cannot measure, and it is sure as heck hard to measure things in cyber.”</p>
+<p>To meet the measure, Associate Director Wales prizes partnerships with law enforcement authorities outside of the United States. “Information sharing amongst all of us is imperative. To enable a collective defensive posture, we must bring everything we can to the fight. And we must do so in an organized, efficient, and well-practiced manner,” Wales said.</p>
+<p>The CISA associate director knows that the cybercrime field needs more lawful guardians, as the threats have grown disproportionately. </p>
+<p>“Our adversaries are growing bolder. Their tactics are growing more sophisticated. And their targets are more consequential,” she said. “Attacks on systemically important critical infrastructure can have cascading, destabilizing effects on US national security, economic security, and public health and safety.” </p>
+<p>The next great threat she sees is ransomware. “Ransomware knows no boundaries. It&#8217;s a target of opportunity and it is indiscriminate,” she said. “We&#8217;ve seen ransomware hit cities, hospitals, critical manufacturing, pipelines, and more. As a citizen this fills me with anger and dismay and I&#8217;m sure you as well. It is intolerable that bad actors can deny essential services from being delivered and it demands global action.”</p>
+<p>“How networked we all are by design and how deeply this increases the attack surface and playground of our adversaries, is something that we take very seriously and something that we seek to counter together.</p>
+<p>Wales has overseen a host of positive developments, starting with security tightening across the federal government. “We are now on track to make the federal government the gold standard for modern cybersecurity. Congress has heard this need and recognizes this need and has provided CISA with key authorities and funding to secure the federal networks that underpin essential government functions,” she said.</p>
+<p>Best of all, Wales sees encouraging growth in her own agency, with position openings for people from all walks to be of aid in the fight for greater cybersecurity. </p>
+<p>“At the CISA.gov website we are constantly posting different career opportunities that we make available, and I will tell you we are in a stage of growth, unprecedented growth,” the CISA associate director offered. “We have grown very large over the last couple of years since we were conceived of by Congress, and we continue to hire at a rapid speed.” </p>
+<p>Qualifications, the associate director explained, come in many forms. And tomorrow’s leaders can make themselves known by their service.</p>
+<p>“We need everything from folks that want to focus on diplomacy, to partnership building, to facilitation of really critical dialogue between key allies and partners. These areas are not always as technical,” Wales offered. “Interns are an amazing source of bright light for CISA. We have had some of our best and brightest come out of the different internship programs that we have at CISA.”</p>
+<p>Wales, whose career began in risk assessment and biothreats, sees her own history as proof of the diverse pathways that can lead to success in cybersecurity. </p>
+<p>“I come from a background in anthropology and history,” she said. “I spent very formative years in college looking at what it means to be secure, feel secure, a lot of the different psychological aspects of what security brings. And I can tell you that the path to cyber is never just the straight and narrow.”</p>
+<h2>Timed Trials</h2>
+<p>Emphasizing collaboration in knowledge, teamwork was the conference’s order of the day. Scholars presented posters aimed at cyber threats, and members of the American Society of Criminology’s cybercrime division led and participated in panel discussions. </p>
+<p>The goal was at its heart was the Cybercrime Investigation Competition—a 24-hour “hackathon,” where sixteen international teams of college students, practitioners, and legal authorities were given the chance to showcase their practical cyber-detective skills over 24 hours by tackling a controlled cyber-forensics case study. Designed to reward synchronicity between digital forensics practices and legal considerations, this case involved a suspect who had hacked into a financial institution using ransomware to demand payments. Each team was given a single machine with which to find their mark. Teams would analyze evidence, try and solve the case, and present their findings to judges in a mock trial.</p>
+<p>“Some of the technical challenges they were confronted with were things like privilege escalation, data hidden in text, audio files, images, hidden archives on different operating systems, website hacking and analysis,” explained Ismael Morales, director of the competition and assistant professor of cybersecurity at Utica College.</p>
+<p>Working deep into the evening, successful teams probed and treated every piece of information with a healthy amount of suspicion, making sure to utilize all available resources, like tech and case manager support. In the end, nine of the sixteen teams were able to complete the challenge, with teams representing Hungary, Cambodia, and South Korea finishing with top marks, and presenting their findings and processes during the mock trial.</p>
+<p>“They really came on strong also in the wee hours of the night,” Morales said. “It showed their grit; their motivation. They stayed with it. And it set an example.”</p>
+<p>As another judge, Robert Price, saw it, “One of the things that I found impressive was the application of the legal authority, the inquisitiveness of the contenders to ask those questions, especially if you&#8217;re from a different country and were working under the US Penal Code. If I was on the other end of that, I would find that incredibly difficult.”</p>
+<p>The conference also featured a student research paper competition, aimed at growing scientific knowledge in the field of cybercrime and cybersecurity. The top three winning papers will be considered for publication in a special 2021 issue of the <em>International Journal of Cybercrime Investigation &amp; Cybersecurity</em>. </p>
+<p>With competitors joining from organizations like the Boston Police Department’s Crimes Against Children Unit and Internet Crimes Against Children Task Force, the challenge united individuals dedicated to ensuring a digitally secure future the only way possible—together. The winning teams were awarded a scholarship to BU MET’s <a href="https://www.bu.edu/met/degrees-certificates/cybercrime-investigation-cybersecurity-graduate-certificate/">Graduate Certificate in Cybercrime Investigation &#038; Cybersecurity</a> program.</p>
+<ul class="learnMore">
+<li><a href="https://www.bu.edu/met/degrees-certificates/cybercrime-investigation-cybersecurity-graduate-certificate/">Learn more about the Cybercrime Investigation &#038; Cybersecurity Graduate Certificate at BU MET</a></li>
+</ul>
+<h2>Linking Resources</h2>
+<p>The way Dr. Choi sees it, the best direction to move towards in security is twofold: “Increasing both interdisciplinary and international collaboration is the key in combating the issue of cybercrime.”</p>
+<p>As Benjamin Wright, a practicing attorney based in Texas focusing on technology law, put it during a presentation on cybercrime’s challenges and available solutions in the private sector, “Security is not a technology. It&#8217;s a process.”</p>
+<p>An instructor at the SANS Institute—which trains cyber defenders on how to protect organizations from data breaches—Wright also helps organizations and professionals understand how to comply with the law, advising domestic and international clients on privacy, electronic commerce, and data security law.</p>
+<p>Using a recent hack of British Airways as an example, Wright explained that even large, sophisticated companies are vulnerable to data security breaches—with recently compromised companies including Marriott Hotels, Equifax, Capital One, Google, Yahoo, and Uber.</p>
+<p>“If hackers can break into these very sophisticated companies, they can also break into [smaller] airlines and insurance companies and hospitals,” Wright said. “So, I argue that society is doing a better job [when] it acknowledges that these private companies are fighting a battle that they can&#8217;t be expected to win in a perfect sense.”</p>
+<p>Current law dictates that companies are responsible for security breaches and exposure of privileged customer data, and so are liable and sanctioned by government regulators. But from Wright’s vantage, the key to defense is private-public partnerships. He believes goodwill efforts to prevent or respond to hacks should be rewarded with reasonably reduced fines. </p>
+<p>“It is unrealistic for society and for regulations to expect perfection. And if we expect perfection, then we don&#8217;t know what we&#8217;re doing,” he said. “I argue that if they&#8217;re motivated to work really hard then they&#8217;re going to hire a professional team and they&#8217;re going to train the team and get the resources necessary to put up the good fight against the cybercriminals.”</p>
+<p>When he’s not lecturing at Boston University&#8217;s Metropolitan College, Joe Burgoyne is senior director of cybersecurity at GE Healthcare, where he is responsible for the vulnerability management, policy framework, and programs for medical devices and solutions. He’s worked in multiple roles across government in his 24 years in cybersecurity, where he learned the keys to working successfully with business stakeholders, establishing security programs, and applying practical solutions to complex issues to reduce risk.</p>
+<p style="max-width: 600px; margin: 0 auto 1.5em; text-align: center;"><img src="/met/files/2022/01/Joe-Burgoyne-speech.jpg" style="width: 100%; border: 2px solid #138387;" class="aligncenter" alt="BU MET Lecturer and Cybersecurity Senior Director Joe Burgoyne presents Cybercrime Challenges and Solutions in the Private Sector" /><span class="image-caption">BU MET Lecturer and Cybersecurity Senior Director Joe Burgoyne presents <em>Cybercrime Challenges and Solutions in the Private Sector</em>.</span></p>
+<p>Burgoyne reflected on his long career in the field, to gauge what challenges he anticipates. “The attackers back in the &#8217;90s and early 2000s weren&#8217;t as sophisticated as they are today, in general,” he said. “The security focus was on the technology used and on the network, because that was where attacks were coming in. The amount of social engineering that we see today just wasn&#8217;t happening back in the &#8217;90s and early 2000s.”</p>
+<ul class="learnMore">
+<li><a href="https://www.bu.edu/met/degrees-certificates/ms-computer-information-systems-security/">Learn more about the MS in Computer Information Systems, Security Concentration at BU MET</a></li>
+</ul>
+<p>Today, Burgoyne says, we see an entirely different playing field—one that includes nation-state attackers, organized crime, and constantly changing methods. “It&#8217;s really about financial gain and disruption of national infrastructure. Ransomware and extortion demands are increasing,” he said. “And in that ransomware and extortion, those demands are potentially funding illegal activities and maybe even terror organizations.”</p>
+<p>“When we talk about the threat landscape, it&#8217;s really about knowing what our current threats are. Threats change over time,” Burgoyne noted.</p>
+<p>The recent crippling Colonial Pipeline ransomware attack pointed out a major flaw in cybersecurity policies, according to Burgoyne. “It is a reactive system, much like an unarmed guard in a parking lot. If the parking lot is attacked, the guards cannot prevent it or cannot even intervene, only react post-incident.”</p>
+<p>As Wright noted, the most positive signs come from the robustness of modern user training and awareness programs. “It&#8217;s so important that the end user understands what an attack looks like, and understands that he or she could be targeted to either run some malicious software or click on a malicious link,” he said. “They can be tricked into doing something that ends up with malicious action against the organization.”</p>
+<p>“The stakes have never been higher,” Burgoyne concluded.</p>
+<h2>International Efforts</h2>
+<p>With global coordination as the order of the day, representatives from international law agencies laid out the latest in collaborative best practices across the world’s disparate cybersecurity ecosystems. A veteran of the Singapore Police Force since 2006, Pei Ling Lee headed technology policy for the nation’s cybercrime command and led their efforts to bring together a coalition of law officers and private citizens to prevent, research, and train against cybercrime. Today, she’s head of cyber strategy and outreach for INTERPOL’s division on cyber threats, where her team provides support via data and intelligence sharing, analysis, and management as well as policy capabilities to all 194 countries that participate in INTERPOL.</p>
+<p> “Our INTERPOL Cybercrime Directorate develops and leads the global law enforcement response to reduce the cybercrime threats that pose the highest risk, and the most harm to communities,” Lee explained. “We provide quality advice.”</p>
+<p>By 2020 there were 4.57 billion internet users worldwide, and more than 200,000 malicious domains identified by INTERPOL. To combat these threats, the European Union in 2019 voted up Project Gateway, an effort to promote private partnerships against cyber threats. “[It’s] essentially a framework that allows INTERPOL to have data sharing agreements, with private sector companies, to enrich our information, and resources for the purpose of conducting cybercrime analysis,” Lee explained of the program, which currently has 13 partner organizations like national CERTs, other international organizations, non-government organizations, academia, civil societies, and the global law enforcement community at large.</p>
+<p>“We firmly believe that the adoption of Project Gateway will create momentum for INTERPOL to expand, enhance, and diversify our partnerships to receive more information, and data,” Lee said. “To protect our growing digital economies, a new generation of public private-partnerships is really needed to address cyber threats.”</p>
+<ul class="learnMore">
+<li><a href="https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/">Learn more about the Digital Forensics Graduate Certificate at BU MET</a></li>
+</ul>
+<p>Joining Lee for a discussion was Dr. Nicole S. van der Meulen, who earned her doctorate studying digital finance identity theft and today is the senior strategic analyst for the European Cybercrime Center at Europol (EC3). A veteran of the field, van der Meulen developed the Netherlands’ first cyberthreat assessment. Now, she heads the policy development team of the EU agency tasked with digital forensics relating to cross-border criminal activities and strategic analysis. “The purpose there is since it is focused on cross-border crime, there is obviously a need for coordination, and an ability to facilitate cooperation. So that is where Europol comes in,” she said.</p>
+<p>Because of their strategy role, EC3 is often at the public front of investigations. “We do a lot with partners, especially partners from the private sector,” van der Meulen explained. With the Joint Cyber Crime Action Task Force, liaison officers from all of these countries work together, and even share offices, while working on cases involving credit card fraud and ATM attacks.</p>
+<p>Part of EC3’s role is to represent the voice of law enforcement for the EU, even as legalities across nations complicate investigations into matters like money laundering. “A lot of countries are involved, but we also involve the banks, and other financial institutions. So that really comes together, in order to identify money mules, to interview them, to arrest them, and to really stop fraudulent transactions from taking place,” van der Meulen said.</p>
+<p>The EC3 plays a role in identifying and arresting malicious actors on the Dark Web, but not before mining those investigations for valued intel. “It&#8217;s also about gathering intelligence before you do that takedown—intelligence about vendors, such as suppliers, but also about buyers, to see what perpetrators can we actually identify. So, we go beyond destructing the infrastructure.”</p>
+<p>Sometimes, she explained, the best weapon is simply providing information. “One of our most successful prevention and awareness campaigns has been ‘<a href="https://www.nomoreransom.org/" target="_blank" rel="noopener noreferrer">No More Ransom</a>.’ If you ever fall victim to ransomware, please visit it,” she remarked.</p>
+<p>The leaders agreed collaboration has been fundamental to their developing successes. As Lee explained, INTERPOL has found recent success with its Operation Falcon, dedicated against an organized crime group responsible for distributing malware, and carrying out phishing campaigns, and extensive business email compromise scams.</p>
+<p>“This has been a year-long investigation, which is still ongoing, whereby the INTERPOL cybercrime directorate worked together with our financial crime unit, which is under the organizing and emerging crime directorate,” Lee explained. “We have worked closely with our private partners, group IB, as well as the Nigerian police force via the National Central Bureau, to take swift action against the perpetrators. The investigation is still ongoing. But as we understand it, this gang is believed to have compromised government and private sector companies in more than 150 countries since 2017. We believe that we have identified more than 50,000 victims so far.”</p>
+<p>Thanks to Project Gateway, “The framework that allows us to cooperate with private partners and receive threat data,” as the INTERPOL cybercrime directorate head describes it, the culprits were caught. “Following this joint cybercrime investigation, there were three suspects who were arrested in Lagos, Nigeria, in late 2020.”</p>
+<p>To continue keeping pace with the threats, the EC3 is planning to revive its academic advisory group. “It&#8217;s to stay in touch, really to have people who are willing to be in touch with us, in terms of what is the latest research in various areas,” van der Meulen said.</p>
+<p>For INTERPOL, the ongoing goals are to develop knowledge exchanges for worldwide law enforcement officials to share strategies, trends, and technology on secure platforms, and to create a global “anti-scam” network. With the wealth of White Hat attendees on hand at the conference, the vision of a more cyber-secure global was nearer than ever. </p>
+<h2>Expanding the Field</h2>
+<p>The Student Computer Forensics and Digital Evidence Educational Opportunities Program grant has a mission to develop the next generation of cyber guardians, helping equip law enforcement with incoming talent to meet the ongoing security demands. As such, the job fair was a major component to the White Hat Conference, connecting students with the information they need to secure professional opportunities in law enforcement, directly from the sources. </p>
+<p>Representatives from the FBI and Homeland Security Investigation gave attendees inside tips on available opportunities in federal government, what agencies look for in applicants, internship opportunities within computer forensics and digital evidence, and what candidates can expect in the hiring process.</p>
+<p>Moderating the fair was Madeleine Nay (MET’18), who credits her promotion to an intelligence operations technician in the gang unit of California’s Department of Corrections and Rehabilitation to her BU MET <a href="https://www.bu.edu/met/degrees-certificates/ms-criminal-justice-cybercrime-investigation-cybersecurity/">MS in Criminal Justice, Concentration in Cybercrime Investigation &#038; Cybersecurity degree.</a></p>
+<ul>
+<li><strong><a href="https://www.bu.edu/met/programs/criminal-justice/career-case-study/">CAREER CASE STUDY: BU MET Cybercrime Investigation &#038; Cybersecurity Alum Madeleine Nay Puts Skills to Work</a></strong></li>
+</ul>
+<p>Given the sensitivity of their security roles, the FBI and HSI agents leading the job fair discussion remained anonymous—but they were forthcoming with the many opportunities their agencies held. One misconception they addressed was the idea that everyone working within federal agencies need to be special agents themselves. </p>
+<p>“There are a lot of opportunities that really no one thinks of being available in some place like the FBI,” one explained of the many supporting roles to be played. “There&#8217;re actually over 200 positions that are non-agent positions with the FBI,” he said, citing examples like intelligence analysts, computer scientists, forensic accountants, computer engineers, electronic technicians, data analysts, IT specialists, management and program specialists, surveillance specialists, linguists, victim specialists. “The list goes on. If you want to work for the FBI, we can absolutely find a spot for you.” </p>
+<p>Sometimes, needs are regional. “Just a few years ago Boston was hiring for an FBI nurse and so when you went to the job posting it said FBI Boston nurse,” they explained. “So sometimes on the location and sometimes you&#8217;re just blindly applying to whatever openings are that you would be willing to go to.”</p>
+<p>One surefire way to get a foot in the door is via internship. “The interns really do work side by side with all the different squads, will be embedded within a squad whether it&#8217;s white collar, gangs, cyber, you name it, we have it,” an analyst in the Boston FBI cybercrime unit said. “Basically, the intern’s job is to help cover the needs or to help progress the cases.”</p>
+<p>HSI’s student volunteer program provides students at undergraduate and graduate levels the chance to get unpaid professional training by working with special agents or criminal analysts on actual investigations. </p>
+<p>All the representatives agreed on one thing: the best way to pursue a career in federal law enforcement was to introduce yourself, whether through recruiters or official job websites. “The more people you talk to in the organization, the more you&#8217;re going to learn and probably get excited about the prospects and the opportunities that could be available in your future,” one offered. </p>
+<p>“We&#8217;re really looking for all different kinds,” they said. “So please don&#8217;t shy away from applying because you don&#8217;t think that you fit a certain mold—there is no mold.”  </p>
+<h2>Historically Secure</h2>
+<p>MET Senior Associate Dean and Director of Health Informatics <a href="https://www.bu.edu/met/profile/lou-chitkushev/">Lou Chitkushev</a>, co-PI on the BJA grant, noted in his closing address that it was no accident that this third installment of the cybersecurity conference was held at Metropolitan College. After all, the College has been dedicated to the cause of global security for decades, developing expertise through applied interdisciplinary research. </p>
+<p>“Twenty years ago, it was September 11, 2001, that really changed the way we looked at cybersecurity, and the way we looked at security in general,” said Dr. Chitkushev. “In 2003, we certified the information security programs at MET’s Department of Computer Science.”</p>
+<p>With more and more people storing more and more information on digital cloud servers, EHRs, smart grid nanotech, and crypto, the opportunities for “black hats” to strike are mounting. </p>
+<p>“I expect that really we are going to see much more Byzantine-type of attacks of people, or entities within the network who, are in dormant cells, or they have been authenticated at the time, and after that they have compromised their security issues,” Chitkushev told the online audience. “All these things are putting tremendous pressure on cybersecurity. They&#8217;re increasing the amount of data; they&#8217;re increasing the size of devices.” </p>
+<ul class="learnMore">
+<li><a href="https://www.bu.edu/met/degrees-certificates/information-security-graduate-certificate/">Learn more about the Information Security Graduate Certificate at BU MET</a></li>
+</ul>
+<p>The opportunities for predatory personal crimes are mounting. “Unfortunately, the cybersecurity crimes will continue to increase in intensity and sophistication. And I would say on a massive global scale,” Chitkushev said. </p>
+<p>As Chitkushev sees it, the need for an influx in cybercrime and cybersecurity talent is dire. Equally critical is that those working in the field stay informed and up to date on new hardware and operating systems. </p>
+<p>In the end, he said, conferences like the White Hat are important because a worldwide fight requires worldwide resources. “It puts researchers and collaborators all around the globe together to exchange and work together on techniques, and the possibilities of how to fight any crime.” </p>
+<h2>Terrier Pride</h2>
+<p>The keynote address was given by a figure familiar to the MET community—Sean Donnelly (MET’18), a <a href="https://www.bu.edu/met/degrees-certificates/ms-computer-information-systems/">Master of Science in Computer Information Systems</a> graduate <a href="https://www.bu.edu/met/news/forbes-list-cis-alum-donnelly/">recently named to <em>Forbes</em>’s prestigious 2021 “30 Under 30” list</a> of entrepreneurs on the rise and the founder and CEO of modular cybersecurity training firm Resolvn.</p>
+<p style="max-width: 600px; margin: 0 auto 1.5em; text-align: center;"><img src="/met/files/2022/01/Sean-Donnelly-Keynote-Speech.jpg" class="aligncenter" style="width: 100%; border: 2px solid #138387;" alt="MET Alum and entrepreneur Sean Donnelly gives a keynote speech." /><span class="image-caption">MET Alum and entrepreneur Sean Donnelly gives a keynote speech.</span></p>
+<p>Donnelly offered lessons on means for overcoming technical skill gaps, different digital forensics disciplines, and knowledge sources for ongoing security technical information. But perhaps his most resonant message was his observation on what qualities bring success in the field.</p>
+<p>“Throughout the hundreds of technical cybersecurity professionals I&#8217;ve met and led throughout my career, all of the really good ones shared two character traits: curiosity and motivation,” Donnelly told the audience.</p>
+<p>Those qualities were in no short order across the White Hat Conference. <a href="https://live.bu.edu/whitehat/" target="_blank" rel="noopener noreferrer">View the full 2021 International White Hat Conference proceedings</a>.<br />
+<style>
+.hub-ctas {
+  text-align: center;
+  margin-top: 30px;
+}
+.hub-ctas .button {
+  background-color: #138387;
+  color: #fff;
+  margin-right: 30px;
+}
+.hub-ctas .button:hover {
+  background-color: #18ABAF;
+}
+.hub-ctas .button:last-of-type {
+  margin-right: 0;
+}
+@media only screen and (max-width: 767px) {
+  .hub-ctas .button {
+    display: block;
+    margin-right: 0;
+  }
+}
+</style>
+<h2 style="text-align: center; margin-top: 50px;">Connect with Us</h2>
+<div class="hub-ctas"><a href="https://www.bu.edu/met/admissions/apply-now-graduate/" class="button">Apply</a><a href="https://met.bu.edu/inquiryform/" target="_blank" rel="noopener noreferrer" class="button">Request Information</a><a href="https://www.bu.edu/met/admissions/connect-with-an-advisor/" class="button">Meet An Advisor</a></div><br />
+<div class="block-list-container">
+<div class="block-list">
+<div class="block">
+<h2>What to Read Next: MET Criminal Justice Knowledge Center</h2>
+<ul id="knowledge-links">
+ 	<li><a href="https://www.bu.edu/met/programs/criminal-justice/stories/">Criminal Justice Student Stories</a></li>
+ 	<li><a href="https://www.bu.edu/met/programs/criminal-justice/why-get-mscj-at-bu-met/">Why Get a Master's Degree in Criminal Justice at BU MET?</a></li>
+ 	<li><a href="https://www.bu.edu/met/programs/criminal-justice/career-outlook/">What Do My Career Options Look Like with a BU Master's in Criminal Justice?</a></li>
+ 	<li><a href="https://www.bu.edu/met/programs/criminal-justice/programs-specializations/">Are There Different Criminal Justice Graduate Programs or Specializations at BU?</a></li>
+        <li><a href="https://www.bu.edu/met/programs/criminal-justice/career-case-study/">Alumni Profile: BU MET Master's in Criminal Justice</a></li>
+        <li><a href="https://www.bu.edu/met/programs/criminal-justice/international-white-hat-cybercriminology-conference/">White Hat Hackers Team Up in International Cybercriminology Conference</a></li>
+</ul>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	const thisPage = window.location.href.split("?")[0].split("#")[0];
+	let linkList = document.getElementById('knowledge-links');
+	let bullets = linkList.getElementsByTagName('li');
+	for (let i = 0; i < bullets.length; i++) {
+		let link = bullets[i].getElementsByTagName('a');
+		let theHref = link[0].href;
+		if (theHref == thisPage) {
+			bullets[i].style.display = "none";
+		}
+	}
+});
+</script></p>
+</div>
+
+			
+			
+			
+			
+			
+		</article>
+
+		
+	
+
+							</div><!-- .content-container -->
+					</main><!-- .content -->
+
+			</div><!-- .wrapper -->
+	
+	<footer class="site-footer has-footer-info has-footer-social has-branding" role="contentinfo">
+		<div class="site-footer-brand-assets">
+	<a href="http://www.bu.edu" class="brand-masterplate">Boston University</a>			<div class="site-footer-info"><p><strong><a href="https://www.bu.edu">Boston University</a></strong> Metropolitan College</p><ul><li>© 2025 Trustees of Boston University</li>
+<li><a href="https://www.bu.edu/tech/services/security/cyber-security/dmca/copyright/" target="_blank" rel="noopener noreferrer">DMCA</a></li>
+<li><a href="https://www.bu.edu/policies/digital-privacy-statement/" target="_blank" rel="noopener noreferrer">Privacy</a></li>
+<li><a href="/met/sitemap/">Sitemap</a></li>
+<li><a href="/met/careers/job-board/">MET Job Board</a></li>
+<li><a href="/met/contact/">Contact Us</a></li></ul></div></div>
+		<div class="site-footer-menus">
+		<nav class="site-footer-social" role="navigation"><ul id="site-footer-social-menu" class="site-footer-social-menu"><li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a title="Facebook" href="https://www.facebook.com/METBU/"><span>Facebook</span></a></li>
+<li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a title="Instagram" href="https://www.instagram.com/metbu/"><span>Instagram</span></a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a title="LinkedIn" href="https://www.linkedin.com/school/boston-university---metropolitan-college/"><span>LinkedIn</span></a></li>
+<li id="menu-item-77936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77936"><a title="Twitter" href="https://www.twitter.com/METBU/"><span>Twitter</span></a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a title="YouTube" href="https://www.youtube.com/channel/UCoPPfVkSa7hOK9Xm6kIh6Ww"><span>YouTube</span></a></li>
+</ul></nav></div>
+		<div class="bu_copyright u-visually-hidden">&copy;  Boston&nbsp;University. All&nbsp;rights&nbsp;reserved. www.bu.edu</div>
+		</footer>
+
+	<script type="text/javascript">
+(function($) {
+
+	var ajaxurl = "https://www.bu.edu/met/wp-admin/admin-ajax.php";
+
+	if (jQuery('.sortable').length) {
+
+		var data = {
+			action: 'sortable_scripts'
+		};
+		$.post(ajaxurl, data, function(scripts) {
+			var s = document.getElementsByTagName('script')[0];
+			$(s).before(scripts);
+		});
+
+	}
+})(jQuery);
+</script>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TXWJFW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXWJFW');</script>
+<!-- End Google Tag Manager --><script type='text/javascript' src='https://www.bu.edu/cdn/scripts/list-js/1.5.0/list.min.js?ver=1.5.0'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-content/themes/r-met/js-dev/program-filter.js?ver=0.3.8'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-content/themes/r-met/js/script.js?ver=0.3.8'></script>
+<script type='text/javascript' src='https://www.bu.edu/met/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+	<a class="top-link hide" href="" id="js-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg><span class="screen-reader-text">Back to top</span></a><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b19c58809e","applicationID":"7212547","transactionName":"YV1SNkUDWEQDBRdQDFgXcQFDC1lZTQgMFBBfXFUAVhBF","queueTime":0,"applicationTime":229,"atts":"TRpFQA0ZSxtAB0EDGEtF","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 3784 objects (576 KB) from Redis using PhpRedis (v5.3.7).
+-->

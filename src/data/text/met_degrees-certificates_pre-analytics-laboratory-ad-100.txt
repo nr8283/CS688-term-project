@@ -1,0 +1,984 @@
+Pre-Analytics Laboratory (AD 100) Graduate Courses | BU MET
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to Main Content
+
+
+
+
+
+
+Boston University
+
+
+Metropolitan College
+
+
+
+
+
+
+Degrees & Certificates
+
+
+Admissions
+
+
+Faculty & Research
+
+
+Apply Now
+
+
+Full Menu
+Close Menu
+ 
+
+
+Boston University
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+Search for:
+
+
+
+
+ 
+
+
+Degrees & Certificates
+
+
+
+
+
+
+Actuarial Science
+
+
+
+
+
+
+Analytics, Data & Business
+
+
+
+
+
+
+Arts Administration
+
+
+
+
+
+
+Bachelor’s Degree Completion
+
+
+
+
+
+
+Biomedical & Healthcare
+
+
+
+
+
+
+Business & Management
+
+
+
+
+
+
+City Planning & Urban Affairs
+
+
+
+
+
+
+Computer Information Systems
+
+
+
+
+
+
+Computer Science & IT
+
+
+
+
+
+
+Criminal Justice
+
+
+
+
+
+
+Cybersecurity
+
+
+
+
+
+
+Finance
+
+
+
+
+
+
+Gastronomy & Food Studies
+
+
+
+
+
+
+Linguistics
+
+
+
+
+
+
+Marketing & Communications
+
+
+
+
+
+
+Project Management
+
+
+
+
+
+
+Risk Management
+
+
+
+
+
+
+Software Development
+
+
+
+
+
+
+Supply Chain Management
+
+
+
+
+
+
+
+
+
+
+Admissions
+
+
+
+
+
+
+Apply Now: Graduate
+
+
+
+
+
+
+Apply Now: Undergraduate
+
+
+
+
+
+
+International Students
+
+
+
+
+
+
+Tuition & Fees
+
+
+
+
+
+
+Financial Aid
+
+
+
+
+
+
+Admitted Students
+
+
+
+
+
+
+Academic Calendars
+
+
+
+
+
+
+Orientation
+
+
+
+
+
+
+Course Registration
+
+
+
+
+
+
+
+
+
+
+About
+
+
+
+
+
+
+Dean’s Welcome
+
+
+
+
+
+
+2030 Strategic Plan
+
+
+
+
+
+
+Dean’s Advisory Board
+
+
+
+
+
+
+Diversity & Inclusion
+
+
+
+
+
+
+Directory
+
+
+
+
+
+
+
+
+
+
+Faculty & Research
+
+
+
+
+
+
+Faculty
+
+
+
+
+
+
+Podcast: MET Makes Conversation
+
+
+
+
+
+
+
+
+
+
+Courses
+
+
+Careers
+
+
+News
+
+
+Events
+
+
+Contact Us
+
+
+
+
+Resources for:
+
+
+Current Students
+
+
+Faculty & Staff
+
+
+Alumni & Friends
+
+
+
+
+
+
+
+
+Apply Now:  Graduate
+
+
+Apply Now:  Undergraduate
+
+
+Request Information
+
+
+Connect:  Admissions
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Pre-Analytics Laboratory AD 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Programs
+
+
+The Pre-Analytics Laboratory provides a basic understanding of business analytics, opening the door to advanced analytical studies and to deep managerial insight. Offered online, this non-credit, hands-on laboratory will help ensure you have the fundamental knowledge of data modeling, business analysis, and decision-support tools necessary for Business Analytics Foundations (MET AD 571), 
+Enterprise Risk Analytics (MET AD 616),
+ and subsequent courses. In addition to presentations and discussions, you’ll apply new concepts directly in an interactive, web-based learning environment that incorporates Microsoft Excel 2016, Power BI Desktop, and SQL Server. [0 cr.]
+
+
+After completing this laboratory, you will be able to:
+
+
+
+
+Identify and formulate data analytics problems
+
+
+Work with data models and data analysis in Microsoft Excel Power Pivot, Power Query, and Power View
+
+
+Use Microsoft Power BI Desktop to transform, share, and combine data; to implement advanced relationships and understand data analysis expressions; and to use visualizations for construction of rich and effective graphics and dashboards
+
+
+Apply essential concepts for querying, creating, and updating tables and data models by working with Microsoft Azure SQL Server
+
+
+
+
+Online Format
+
+
+The non-credit, hands-on Pre-Analytics Laboratory is offered in an online format. It is led by an instructor and delivered over seven weeks with exercises, self-administered tests, discussion forums, and live classroom sessions. The laboratory is graded on a Pass/Fail basis and requires a grade of 60 percent or better on each unit test and an overall average of 70 percent or better for all unit tests by the end of the laboratory. After the completion of the instruction period, you will continue to have full access to our interactive working environment for an additional 30 days to review or deepen your knowledge and skills.
+
+
+The Pre-Analytics Laboratory is available to all Boston University students or students recently offered admission who have not yet begun their enrollment.  The lab is a prerequisite for the courses Business Analytics Foundations (MET AD 571) and
+ Enterprise Risk Analytics (MET AD 616)
+, which are part of the following graduate programs:
+
+
+
+
+MS in Applied Business Analytics
+ (on campus, online, and blended)
+
+
+MS in Supply Chain Management, Analytics concentration
+ (on campus, online, and blended)
+
+
+Graduate Certificate in Applied Business Analytics
+ (on campus, online, and blended)
+
+
+
+
+If you have any questions about this laboratory or registration, please contact Tara Kelly at 617-358-6320 or 
+tkelly89@bu.edu
+.
+
+
+
+
+News & Events
+
+
+
+
+
+
+
+
+
+
+News
+
+
+
+
+
+
+
+
+Professor Vodenska Joins Bloomberg Podcast to Discuss Leveraging AI in Environmental, Social, and Governance Regulations
+
+
+
+
+
+
+
+						July 2nd, 2025					
+
+
+ in: 
+Artificial Intelligence
+, 
+Business & Management
+, 
+Faculty News
+, 
+Finance
+, 
+Irena Vodenska
+ 
+
+
+Read More
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+
+
+
+
+
+
+Global Marketing Management Alum Parth Mutha Named to 
+Forbes
+’ 30 Under 30 List for Soy-Snack Promunch
+
+
+
+
+
+
+
+						June 18th, 2025					
+
+
+ in: 
+Alumni News
+, 
+Awards
+, 
+Business & Management
+, 
+Global Marketing Management
+, 
+MET News
+, 
+Students
+ 
+
+
+Read More
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+
+
+
+
+
+
+Student Puts Global Marketing Management Skills to Use with Recycled Tennis String Venture
+
+
+
+
+
+
+
+						June 5th, 2025					
+
+
+ in: 
+Business & Management
+, 
+Daily Free Press
+, 
+Global Marketing Management
+, 
+MET News
+, 
+Students
+ 
+
+
+Read More
+
+
+
+
+
+
+
+
+
+
+
+
+All News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Events
+
+
+
+
+
+
+Admitted Student Webinar: On-Campus Students Meet Your BU Classmates!
+
+
+
+
+
+
+Day:
+
+
+August 4th, 2025
+
+
+
+
+
+
+Time:
+
+
+1:00am - 1:45am
+
+
+
+
+
+
+
+						Online					
+
+
+
+
+Details
+
+
+
+
+
+
+
+
+
+
+
+
+Events
+
+
+
+
+
+
+Admitted Student Webinar: On-Campus Students Meet Your BU Classmates!
+
+
+
+
+
+
+Day:
+
+
+August 4th, 2025
+
+
+
+
+
+
+Time:
+
+
+9:00am - 9:45am
+
+
+
+
+
+
+
+						Online					
+
+
+
+
+Details
+
+
+
+
+
+
+
+
+
+
+
+
+Events
+
+
+
+
+
+
+Admitted Student Webinar: Online Students Meet Your BU Classmates!
+
+
+
+
+
+
+Day:
+
+
+August 12th, 2025
+
+
+
+
+
+
+Time:
+
+
+1:00pm - 1:45pm
+
+
+
+
+
+
+
+						Online					
+
+
+
+
+Details
+
+
+
+
+
+
+
+
+
+
+
+
+All Events
+
+
+
+
+
+
+
+
+
+
+Back to Programs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boston University
+ 
+Boston University
+ Metropolitan College
+© 2025 Trustees of Boston University
+
+
+DMCA
+
+
+Privacy
+
+
+Sitemap
+
+
+MET Job Board
+
+
+Contact Us
+
+
+
+
+Facebook
+
+
+Instagram
+
+
+LinkedIn
+
+
+Twitter
+
+
+YouTube
+
+
+
+
+©  Boston University. All rights reserved. www.bu.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to top
