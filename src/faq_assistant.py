@@ -924,6 +924,8 @@ import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
+import streamlit as st
+from openai import OpenAI
 
 # ==== CONFIG ====
 USE_LOCAL = False  # True = use Ollama, False = use OpenAI
